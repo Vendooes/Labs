@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1728230619.5591 "d:/Labs/lab 1.4.2/lab 1.4.2.tex" "lab 1.4.2.pdf" "lab 1.4.2" 1728230620.2747 0
+["pdflatex"] 1728571912.01603 "d:/Python code/Labs/lab 1.4.2/lab 1.4.2.tex" "lab 1.4.2.pdf" "lab 1.4.2" 1728571913.24345 0
   "C:/Users/vendo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1728203195 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/vendo/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1000.pk" 1728166027 23468 cc4c853298a1c69d2c5555663188cb1f ""
   "C:/Users/vendo/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1200.pk" 1728164382 29472 9a6de35fe4934c20b6f502e6c0cb3a3a ""
@@ -94,8 +94,8 @@
   "D:/Miktex/tex/latex/physics/physics.sty" 1356002062 29610 a9597219b282d9c78b02393dcd7d4322 ""
   "D:/Miktex/tex/latex/tools/indentfirst.sty" 1718356376 1618 d81d7e8646081fd4049b99a8cd8a91df ""
   "D:/Miktex/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
-  "d:/Labs/lab 1.4.2/lab 1.4.2.tex" 1728230618 20252 02e47ad77dad4bf4a1fd49fad1ea0599 ""
-  "lab 1.4.2.aux" 1728230620 3095 3566f58f1f2445c0094aec3659a5ff6f "pdflatex"
+  "d:/Python code/Labs/lab 1.4.2/lab 1.4.2.tex" 1728230618 20252 02e47ad77dad4bf4a1fd49fad1ea0599 ""
+  "lab 1.4.2.aux" 1728571913 3095 3566f58f1f2445c0094aec3659a5ff6f "pdflatex"
   "lab 1.4.2.tex" 1728230618 20252 02e47ad77dad4bf4a1fd49fad1ea0599 ""
   "pick1.PNG" 1728201461 24742 c6e7b4f93e55070fcce2802f566b7168 ""
   "pick2.PNG" 1728208573 19371 2f3cf7336952bd1f58cc45f33f0ad5f3 ""
