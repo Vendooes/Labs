@@ -8,7 +8,7 @@ sumy = sum(float(i) for i in y)
 sqrx = 0
 prxy = 0
 for i in x:
-    sqrx +=int(i)**2
+    sqrx +=float(i)**2
 for i in range(0,count):
     prxy+=float(x[i])*float(y[i])
 matrix = np.zeros((2,2))
