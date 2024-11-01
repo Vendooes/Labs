@@ -17,7 +17,7 @@ class Vektor:
             return Vektor(self.x * oth, self.y * oth, self.z * oth)
     def __str__(self):
         return f'{self.x}, {self.y}, {self.z}'
-vektor1 = Vektor(o,2,3)
+vektor1 = Vektor(1,2,3)
 vector2 = Vektor(9,5,6)
 sum = vektor1+vector2
 vichit = vektor1-vector2
