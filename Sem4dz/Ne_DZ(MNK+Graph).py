@@ -53,7 +53,7 @@ plt.plot(Xmnk,Ymnk, 'r', label='MNK')
 plt.title('Our First Graph!', fontdict={'fontname': 'sans-serif', 'fontsize': 20})
 
 ax1.scatter(X, Y, marker='x')
-ax1.errorbar(X, Y, yerr=0.2, xerr = 0.1, color = 'k', linestyle = 'None')
+# ax1.errorbar(X, Y, yerr=0.2, xerr = 0.1, color = 'k', linestyle = 'None')
 
 plt.xlabel('X Axis')
 plt.ylabel('Y Axis')
