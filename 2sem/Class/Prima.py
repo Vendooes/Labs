@@ -25,7 +25,12 @@ def Prim(G):
     prev = [None] * V
     S = set()
     while len(S) != V:
-        v = min((d, i) for i, d in enumerate(dist) if i not in S)[1]
+        v = None
+        min_d = float('inf')
+        for i in range(len(dist)):
+            if i not in S and dist[i] < min_d:
+                min_d = dist[i]
+                v = i
         S.add(v)
         # print(S)
         if prev[v] is not None:
