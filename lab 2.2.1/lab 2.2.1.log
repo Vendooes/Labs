@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.6)  3 APR 2025 00:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.6)  13 APR 2025 18:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"d:/Labs/lab 1.3.3/lab 1.3.3.tex"
-(d:/Labs/lab 1.3.3/lab 1.3.3.tex
+**"d:/Labs/lab 2.2.1/lab 2.2.1.tex"
+(d:/Labs/lab 2.2.1/lab 2.2.1.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
 (D:\Miktex\tex/latex/base\article.cls
@@ -422,8 +422,8 @@ Package caption Info: Standard document class detected.
 \c@caption@flags=\count287
 \c@continuedfloat=\count288
 Package caption Info: wrapfig package is loaded.
-) (lab 1.3.3.aux)
-\openout1 = `"lab 1.3.3.aux"'.
+) (lab 2.2.1.aux)
+\openout1 = `"lab 2.2.1.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
@@ -498,52 +498,52 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<qp_min_lam.PNG, id=1, 578.16pt x 361.35pt>
-File: qp_min_lam.PNG Graphic file (type png)
-<use qp_min_lam.PNG>
-Package pdftex.def Info: qp_min_lam.PNG  used on input line 22.
-(pdftex.def)             Requested size: 466.053pt x 291.28038pt.
+<37_5.png, id=1, 578.16pt x 361.35pt>
+File: 37_5.png Graphic file (type png)
+<use 37_5.png>
+Package pdftex.def Info: 37_5.png  used on input line 22.
+(pdftex.def)             Requested size: 414.27371pt x 258.92018pt.
 
-Overfull \hbox (310.69937pt too wide) in paragraph at lines 22--23
+Overfull \hbox (258.92009pt too wide) in paragraph at lines 22--23
  [][] 
  []
 
 
-Package wrapfig Warning: Collision between wrapping environments on input line 26.
+Package wrapfig Warning: Collision between wrapping environments on input line 27.
 
-<qp_min_turb.PNG, id=3, 578.16pt x 361.35pt>
-File: qp_min_turb.PNG Graphic file (type png)
-<use qp_min_turb.PNG>
-Package pdftex.def Info: qp_min_turb.PNG  used on input line 28.
-(pdftex.def)             Requested size: 466.053pt x 291.28038pt.
+<56_3.png, id=3, 578.16pt x 361.35pt>
+File: 56_3.png Graphic file (type png)
+<use 56_3.png>
+Package pdftex.def Info: 56_3.png  used on input line 29.
+(pdftex.def)             Requested size: 414.27371pt x 258.92018pt.
 
-Overfull \hbox (310.69937pt too wide) in paragraph at lines 28--29
+Overfull \hbox (258.92009pt too wide) in paragraph at lines 29--30
  [][] 
  []
 
 
-Package wrapfig Warning: Collision between wrapping environments on input line 32.
+Package wrapfig Warning: Collision between wrapping environments on input line 33.
 
-<qp_max_lam.PNG, id=4, 578.16pt x 361.35pt>
-File: qp_max_lam.PNG Graphic file (type png)
-<use qp_max_lam.PNG>
-Package pdftex.def Info: qp_max_lam.PNG  used on input line 34.
-(pdftex.def)             Requested size: 466.053pt x 291.28038pt.
+<73_1.png, id=4, 578.16pt x 361.35pt>
+File: 73_1.png Graphic file (type png)
+<use 73_1.png>
+Package pdftex.def Info: 73_1.png  used on input line 35.
+(pdftex.def)             Requested size: 414.27371pt x 258.92018pt.
 
-Overfull \hbox (310.69937pt too wide) in paragraph at lines 34--35
+Overfull \hbox (258.92009pt too wide) in paragraph at lines 35--36
  [][] 
  []
 
 
-Package wrapfig Warning: Collision between wrapping environments on input line 38.
+Package wrapfig Warning: Collision between wrapping environments on input line 39.
 
-<qp_max_turb.PNG, id=5, 578.16pt x 361.35pt>
-File: qp_max_turb.PNG Graphic file (type png)
-<use qp_max_turb.PNG>
-Package pdftex.def Info: qp_max_turb.PNG  used on input line 40.
-(pdftex.def)             Requested size: 466.053pt x 291.28038pt.
+<95_6.png, id=5, 578.16pt x 361.35pt>
+File: 95_6.png Graphic file (type png)
+<use 95_6.png>
+Package pdftex.def Info: 95_6.png  used on input line 41.
+(pdftex.def)             Requested size: 414.27371pt x 258.92018pt.
 
-Overfull \hbox (310.69937pt too wide) in paragraph at lines 40--41
+Overfull \hbox (258.92009pt too wide) in paragraph at lines 41--42
  [][] 
  []
 
@@ -551,104 +551,60 @@ Overfull \hbox (310.69937pt too wide) in paragraph at lines 40--41
 
 [1
 
-{C:/Users/vendo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./qp_min_lam.PNG> <./qp_min_turb.PNG>]
+{C:/Users/vendo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./37_5.png> <./56_3.png>]
 
-Package wrapfig Warning: Collision between wrapping environments on input line 44.
+Package wrapfig Warning: Collision between wrapping environments on input line 45.
 
-<px.PNG, id=13, 578.16pt x 361.35pt>
-File: px.PNG Graphic file (type png)
-<use px.PNG>
-Package pdftex.def Info: px.PNG  used on input line 46.
-(pdftex.def)             Requested size: 466.053pt x 291.28038pt.
+<113_6.png, id=13, 578.16pt x 361.35pt>
+File: 113_6.png Graphic file (type png)
+<use 113_6.png>
+Package pdftex.def Info: 113_6.png  used on input line 47.
+(pdftex.def)             Requested size: 414.27371pt x 258.92018pt.
 
-Overfull \hbox (310.69937pt too wide) in paragraph at lines 46--47
+Overfull \hbox (258.92009pt too wide) in paragraph at lines 47--48
  [][] 
  []
 
 
-Package wrapfig Warning: Collision between wrapping environments on input line 50.
+Package wrapfig Warning: Collision between wrapping environments on input line 51.
 
-<lnlam.PNG, id=14, 610.53094pt x 311.66437pt>
-File: lnlam.PNG Graphic file (type png)
-<use lnlam.PNG>
-Package pdftex.def Info: lnlam.PNG  used on input line 52.
-(pdftex.def)             Requested size: 466.053pt x 237.91837pt.
+<DP.png, id=14, 578.16pt x 361.35pt>
+File: DP.png Graphic file (type png)
+<use DP.png>
+Package pdftex.def Info: DP.png  used on input line 53.
+(pdftex.def)             Requested size: 414.27371pt x 258.92018pt.
 
-Overfull \hbox (310.69937pt too wide) in paragraph at lines 52--53
- [][] 
- []
-
-
-
-[2 <./qp_max_lam.PNG> <./qp_max_turb.PNG>]
-
-Package wrapfig Warning: Collision between wrapping environments on input line 56.
-
-<lnturb.PNG, id=20, 630.10406pt x 311.66437pt>
-File: lnturb.PNG Graphic file (type png)
-<use lnturb.PNG>
-Package pdftex.def Info: lnturb.PNG  used on input line 58.
-(pdftex.def)             Requested size: 466.053pt x 230.52339pt.
-
-Overfull \hbox (310.69937pt too wide) in paragraph at lines 58--59
- [][] 
- []
-
-
-Package wrapfig Warning: Collision between wrapping environments on input line 62.
-
-<mix_min.PNG, id=21, 578.16pt x 361.35pt>
-File: mix_min.PNG Graphic file (type png)
-<use mix_min.PNG>
-Package pdftex.def Info: mix_min.PNG  used on input line 64.
-(pdftex.def)             Requested size: 466.053pt x 291.28038pt.
-
-Overfull \hbox (310.69937pt too wide) in paragraph at lines 64--65
+Overfull \hbox (258.92009pt too wide) in paragraph at lines 53--54
  [][] 
  []
 
 
 
-[3 <./px.PNG> <./lnlam.PNG>]
-
-Package wrapfig Warning: Collision between wrapping environments on input line 69.
-
-<mix_max.PNG, id=27, 578.16pt x 361.35pt>
-File: mix_max.PNG Graphic file (type png)
-<use mix_max.PNG>
-Package pdftex.def Info: mix_max.PNG  used on input line 71.
-(pdftex.def)             Requested size: 466.053pt x 291.28038pt.
-
-Overfull \hbox (310.69937pt too wide) in paragraph at lines 71--72
- [][] 
- []
-
+[2 <./73_1.png> <./95_6.png>]
 
 Package caption Warning: Unused \captionsetup[table] on input line 16.
 See the caption package documentation for explanation.
 
 
 
-[4 <./lnturb.PNG> <./mix_min.PNG>]
-
-[5 <./mix_max.PNG>] (lab 1.3.3.aux)
+[3 <./113_6.png> <./DP.png>] (lab 2.2.1.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6966 strings out of 473898
- 106208 string characters out of 5742894
+ 6945 strings out of 473898
+ 105658 string characters out of 5742894
  506349 words of memory out of 5000000
- 29781 multiletter control sequences out of 15000+600000
+ 29760 multiletter control sequences out of 15000+600000
  558866 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,5n,93p,356b,288s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk>
-Output written on "lab 1.3.3.pdf" (5 pages, 231447 bytes).
+Output written on "lab 2.2.1.pdf" (3 pages, 199952 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
+ 48 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

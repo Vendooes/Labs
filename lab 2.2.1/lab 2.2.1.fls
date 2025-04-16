@@ -1,7 +1,7 @@
-PWD d:\Labs\lab 1.3.3
+PWD d:\Labs\lab 2.2.1
 INPUT C:\Users\vendo\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT d:\Labs\lab 1.3.3\lab 1.3.3.tex
-OUTPUT lab 1.3.3.log
+INPUT d:\Labs\lab 2.2.1\lab 2.2.1.tex
+OUTPUT lab 2.2.1.log
 INPUT D:\Miktex\tex\latex\base\article.cls
 INPUT D:\Miktex\tex\latex\base\article.cls
 INPUT D:\Miktex\tex\latex\base\size10.clo
@@ -92,10 +92,10 @@ INPUT D:\Miktex\tex\latex\caption\caption.sty
 INPUT D:\Miktex\tex\latex\caption\caption.sty
 INPUT D:\Miktex\tex\latex\caption\caption3.sty
 INPUT D:\Miktex\tex\latex\caption\caption3.sty
-INPUT .\lab 1.3.3.aux
-INPUT .\lab 1.3.3.aux
-INPUT lab 1.3.3.aux
-OUTPUT lab 1.3.3.aux
+INPUT .\lab 2.2.1.aux
+INPUT .\lab 2.2.1.aux
+INPUT lab 2.2.1.aux
+OUTPUT lab 2.2.1.aux
 INPUT D:\Miktex\tex\context\base\mkii\supp-pdf.mkii
 INPUT D:\Miktex\tex\context\base\mkii\supp-pdf.mkii
 INPUT D:\Miktex\tex\context\base\mkii\supp-pdf.mkii
@@ -104,71 +104,50 @@ INPUT D:\Miktex\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT D:\Miktex\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT D:\Miktex\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT D:\Miktex\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT .\qp_min_lam.PNG
-INPUT .\qp_min_lam.PNG
-INPUT .\qp_min_lam.PNG
-INPUT .\qp_min_lam.PNG
-OUTPUT lab 1.3.3.pdf
-INPUT .\qp_min_lam.PNG
-INPUT .\qp_min_lam.PNG
-INPUT .\qp_min_lam.PNG
-INPUT .\qp_min_turb.PNG
-INPUT .\qp_min_turb.PNG
-INPUT .\qp_min_turb.PNG
-INPUT .\qp_min_turb.PNG
-INPUT .\qp_min_turb.PNG
-INPUT .\qp_min_turb.PNG
-INPUT .\qp_min_turb.PNG
-INPUT .\qp_max_lam.PNG
-INPUT .\qp_max_lam.PNG
-INPUT .\qp_max_lam.PNG
-INPUT .\qp_max_lam.PNG
-INPUT .\qp_max_lam.PNG
-INPUT .\qp_max_lam.PNG
-INPUT .\qp_max_lam.PNG
-INPUT .\qp_max_turb.PNG
-INPUT .\qp_max_turb.PNG
-INPUT .\qp_max_turb.PNG
-INPUT .\qp_max_turb.PNG
-INPUT .\qp_max_turb.PNG
-INPUT .\qp_max_turb.PNG
-INPUT .\qp_max_turb.PNG
+INPUT .\37_5.png
+INPUT .\37_5.png
+INPUT .\37_5.png
+INPUT .\37_5.png
+OUTPUT lab 2.2.1.pdf
+INPUT .\37_5.png
+INPUT .\37_5.png
+INPUT .\37_5.png
+INPUT .\56_3.png
+INPUT .\56_3.png
+INPUT .\56_3.png
+INPUT .\56_3.png
+INPUT .\56_3.png
+INPUT .\56_3.png
+INPUT .\56_3.png
+INPUT .\73_1.png
+INPUT .\73_1.png
+INPUT .\73_1.png
+INPUT .\73_1.png
+INPUT .\73_1.png
+INPUT .\73_1.png
+INPUT .\73_1.png
+INPUT .\95_6.png
+INPUT .\95_6.png
+INPUT .\95_6.png
+INPUT .\95_6.png
+INPUT .\95_6.png
+INPUT .\95_6.png
+INPUT .\95_6.png
 INPUT C:\Users\vendo\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT .\px.PNG
-INPUT .\px.PNG
-INPUT .\px.PNG
-INPUT .\px.PNG
-INPUT .\px.PNG
-INPUT .\px.PNG
-INPUT .\px.PNG
-INPUT .\lnlam.PNG
-INPUT .\lnlam.PNG
-INPUT .\lnlam.PNG
-INPUT .\lnlam.PNG
-INPUT .\lnlam.PNG
-INPUT .\lnlam.PNG
-INPUT .\lnlam.PNG
-INPUT .\lnturb.PNG
-INPUT .\lnturb.PNG
-INPUT .\lnturb.PNG
-INPUT .\lnturb.PNG
-INPUT .\lnturb.PNG
-INPUT .\lnturb.PNG
-INPUT .\lnturb.PNG
-INPUT .\mix_min.PNG
-INPUT .\mix_min.PNG
-INPUT .\mix_min.PNG
-INPUT .\mix_min.PNG
-INPUT .\mix_min.PNG
-INPUT .\mix_min.PNG
-INPUT .\mix_min.PNG
-INPUT .\mix_max.PNG
-INPUT .\mix_max.PNG
-INPUT .\mix_max.PNG
-INPUT .\mix_max.PNG
-INPUT .\mix_max.PNG
-INPUT .\mix_max.PNG
-INPUT .\mix_max.PNG
-INPUT lab 1.3.3.aux
+INPUT .\113_6.png
+INPUT .\113_6.png
+INPUT .\113_6.png
+INPUT .\113_6.png
+INPUT .\113_6.png
+INPUT .\113_6.png
+INPUT .\113_6.png
+INPUT .\DP.png
+INPUT .\DP.png
+INPUT .\DP.png
+INPUT .\DP.png
+INPUT .\DP.png
+INPUT .\DP.png
+INPUT .\DP.png
+INPUT lab 2.2.1.aux
 INPUT C:\Users\vendo\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1000.pk
 INPUT C:\Users\vendo\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1000.pk
