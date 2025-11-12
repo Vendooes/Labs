@@ -1,0 +1,119 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[russian,english]{babel}
+\usepackage[T2A]{fontenc}
+\usepackage[left=10mm, top=20mm, right=18mm, bottom=15mm, footskip=10mm]{geometry}
+\usepackage{indentfirst}
+\usepackage{amsmath,amssymb}
+\usepackage[italicdiff]{physics}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+\usepackage{wrapfig}
+\usepackage{subcaption}
+\usepackage{caption}
+\captionsetup[figure]{name=Рисунок}
+\captionsetup[table]{name=Таблица}
+
+
+\begin{document}
+Результаты определения резонансных частот для синусоидальных колебаний \par
+\begin{tabular}{|c|c|c|c|c|c|c|c|}
+\hline
+n & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
+\hline
+$v_n$, (согласованная линия) МГц & 3.9 & 7.8 & 11.7 & 15.7 & 19.6 & 23.5 & 27.5 \\
+\hline
+$v_n$, (без нагрузки) МГц & 4 & 8 & 12 & 16 & 20 & 24 & 28 \\
+\hline
+\end{tabular}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=11cm]{a1.PNG}
+	\caption{График зависимости резонансных частот от их номера}
+	\label{fig:Holl2}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=11cm]{a2.PNG}
+	\caption{График зависимости резонансных частот от их номера}
+	\label{fig:Holl2}
+\end{figure}
+
+ Из графика по данным с согласованной нагрузкой можно получить информацию о угле наклона и фазовой скорости.
+
+\begin{equation*}
+\begin{aligned}
+k_1 &= \frac{V_\Phi}{l} = (4 \pm 0.003)~\text{МГц} \\
+V_\Phi &= (2.012 \pm 0.002) * 10^{10}~\text{см/с}
+\end{aligned}
+\end{equation*}
+
+А для сигнала без нагрузки:
+
+\begin{equation*}
+\begin{aligned}
+k_2 &= \frac{V_\Phi}{l} = (3.93 \pm 0.006)~\text{МГц} \\
+V_\Phi &= (1.977 \pm 0.003) * 10^{10}~\text{см/с}
+\end{aligned}
+\end{equation*}
+Для групповой скорости
+\begin{equation*}
+v_n = \frac{V_{\mathrm{rp}}}{l} (n + n_0)
+\end{equation*}
+
+Приведем данные и график полученный по этим данным
+
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+n & 1 & 2 & 3 & 4 & 5 \\
+\hline
+$v_n$, (согласованная линия) МГц & 3.92 & 7.82 & 11.74 & 15.65 & 19.59 \\
+\hline
+$v_n$, (без нагрузки) МГц & 3.9 & 7.8 & 11.7 & 15.7 & 19.5 \\
+\hline
+\end{tabular}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=11cm]{a3.PNG}
+	\caption{График зависимости резонансных частот от их номера для прямоугольных сигналов}
+	\label{fig:Holl2}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=11cm]{a4.PNG}
+	\caption{График зависимости резонансных частот от их номера для прямоугольных сигналов}
+	\label{fig:Holl2}
+\end{figure}
+
+Для данных графиков получаем приведенные значения снизу. Для согласованной линии получаем:
+
+\begin{equation*}
+\begin{aligned}
+k_1 &= \frac{V_\Phi}{l} = (3.917 \pm 0.003)~\text{МГц} \\
+V_\Phi &= (1.97 \pm 0.02) * 10^{10}~\text{см/с}
+\end{aligned}
+\end{equation*}
+
+А для сигнала без нагрузки:
+
+\begin{equation*}
+\begin{aligned}
+k_2 &= \frac{V_\Phi}{l} = (3.91 \pm 0.002)~\text{МГц} \\
+V_\Phi &= (1.966 \pm 0.02) * 10^{10}~\text{см/с}
+\end{aligned}
+\end{equation*}
+
+Для АЧХ и ФЧХ
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=20cm]{a5.PNG}
+	\caption{АЧХ и ФЧХ}
+	\label{fig:Holl2}
+\end{figure}
+
+\end{document}

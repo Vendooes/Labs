@@ -1,0 +1,246 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[russian,english]{babel}
+\usepackage[T2A]{fontenc}
+\usepackage[left=10mm, top=20mm, right=18mm, bottom=15mm, footskip=10mm]{geometry}
+\usepackage{indentfirst}
+\usepackage{amsmath,amssymb}
+\usepackage[italicdiff]{physics}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+\usepackage{wrapfig}
+\usepackage{subcaption}
+\usepackage{caption}
+\captionsetup[figure]{name=Рисунок}
+\captionsetup[table]{name=Таблица}
+  
+\title{\underline{Отчет о выполненой лабораторной работе 3.7.3}}
+\author{Воронин Денис, Б04-407}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+\textbf{\Large Длинные линии}
+\end{center}
+
+
+\textbf{Цели работы:} ознакомится и проверить на практике теорию распространения 
+электрических сигналов вдоль длинной линии; измерить амплитудо- и фазово-частотные 
+характеристики коаксиальной линии; определить погонные характеристики такой 
+линии; на примере модели длинной линии изучить вопрос распределения амплитуды 
+колебаний сигнала по длине линии. \\
+\textbf{Оборудование:}  осциллограф АКТАКОМ ADS-6142H; генератора АКИП 3420/1; бухта с 
+коаксиальным кабелем pk 50-4-11; схематический блок "модель длинной линии"; магазин 
+сопротивления Р33, соединительные провода. 
+
+\section{Теоретическая часть}
+Рассмотрим элемент $dx$ длинного коаксиального кабеля. Этот элемент представляет собой изолированный 
+коаксиальный проводящий (медный) цилиндр некоторого радиуса $r_2$, на оси которого расположен сплошной тонкий проводник (медный) круглого сечения с радиусом $r_1$. Пространство между этими проводниками заполнена средой, обладающей диэлектрической проницаемостью $\varepsilon$ и 
+магнитной восприимчивостью $\mu$. Как известно, такой элемент обладает индуктивностью
+\begin{equation}
+dL = 2\mu \ln(r_2 / r_1)\, dx.
+\label{eq:inductance_element}
+\end{equation}
+
+Удельная (погонная) индуктивность единицы длины такого кабеля:
+\begin{equation}
+L_x = \frac{dL}{dx} = 2\mu \ln(r_2 / r_1).
+\label{eq:inductance_per_unit}
+\end{equation}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=11cm]{p1.PNG}
+	\caption{Схематическое изображение элемента dx длинного коаксиального кабеля.}
+	\label{fig:Holl2}
+\end{figure}
+
+Два проводника, образующих этот элемент $dx$ коаксиального кабеля, должны обладать взаимной ёмкостью. Можно показать, что ёмкость элемента $dx$ коаксиального кабеля определяется выражением:
+\begin{equation}
+dC = \frac{\varepsilon}{2 \ln(r_2 / r_1)}\, dx,
+\label{eq:capacitance_element}
+\end{equation}
+а его удельная (погонная) ёмкость единицы длины равна:
+\begin{equation}
+C_x = \frac{dC}{dx} = \frac{\varepsilon}{2 \ln(r_2 / r_1)}.
+\label{eq:capacitance_per_unit}
+\end{equation}
+
+Изменение напряжения на концах элемента $dx$ вызваны возникновением ЭДС индукции и падением напряжения в результате омического сопротивления проводников:
+\begin{equation}
+U(x + dx) - U(x) = -\frac{L_x \, dx}{c^2} \frac{\partial I}{\partial t} - R_x \, dx \, I,
+\label{eq:voltage_balance}
+\end{equation}
+где погонное сопротивление
+\begin{equation}
+R_x = \frac{dR}{dx} = \frac{1}{\sigma \cdot S},
+\label{eq:resistance_per_unit}
+\end{equation}
+здесь $\sigma$ — удельная проводимость материала проводников, $S$ — площадь их поперечного сечения.
+
+Изменение силы тока вызвано тем, что некоторая часть электрического заряда $q$ как бы <<перетекает на ``обкладки'' конденсатора, роль которых играют проводники коаксиального кабеля>>:
+\begin{equation}
+I(x + dx) - I(x) = -\frac{\partial q}{\partial t},
+\label{eq:current_change}
+\end{equation}
+где $q = C_x \, dx \, U$.
+
+Волоновое уравнение для напряжения $U(x)$:
+\begin{equation}
+\frac{\partial^2 U}{\partial x^2} = \frac{L_x C_x}{c^2} \frac{\partial^2 U}{\partial t^2} + R_x C_x \frac{\partial U}{\partial t},
+\label{eq:wave_equation_general}
+\end{equation}
+
+Или в каноническом виде:
+\begin{equation}
+\frac{\partial^2 U}{\partial t^2} - V_\phi^2 \frac{\partial^2 U}{\partial x^2} + \gamma \frac{\partial U}{\partial t} = 0,
+\label{eq:wave_equation_canonical}
+\end{equation}
+где введены следующие обозначения для фазовой скорости:
+\begin{equation}
+V_\phi = \frac{c}{\sqrt{L_x C_x}},
+\label{eq:phase_velocity}
+\end{equation}
+и декремента затухания:
+\begin{equation}
+\gamma = R_x C_x V_\phi^2.
+\label{eq:damping_decrement}
+\end{equation}
+
+Если в конце такую длинную линию замкнуть на сопротивление
+\begin{equation}
+R_0 = \frac{1}{c} \sqrt{\frac{L_x}{C_x}},
+\label{eq:characteristic_impedance}
+\end{equation}
+то бегущая вдоль длинной линии волна <<будет воспринимать>> нагрузку как бесконечное продолжение этой длинной линии. Другими словами, когда длинная линия подключена к нагрузке с сопротивлением $R_0$, отражённой волны не возникает. Во всех остальных случаях, когда $R \ne R_0$ (в том числе и в частных случаях незамкнутого конца, когда $R \to \infty$ и короткозамкнутой линии, когда $R = 0$) возникает отражённая волна, описываемая выражением:
+\begin{equation}
+U(x,t) = U_0 e^{-i\omega t} e^{-(\alpha + ik)x},
+\label{eq:reflected_wave}
+\end{equation}
+
+Набег фазы сигнала на выходе (в конце длинной линии) относительно входного сигнала (в начале длинной линии) будет иметь вид:
+\begin{equation}
+\Delta \varphi = k l.
+\label{eq:phase_shift}
+\end{equation}
+
+\section{Ход работы}
+\subsection{Часть I. Определение параметров коаксиального кабеля.}
+
+Экспериментальные данные:
+
+
+
+\label{tab:exp_data}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+$v$, МГц & $U_0$, B & $U_H$, B & $\Delta\varphi$, рад & $k$, $10^{-3}$ см$^{-1}$ & $\alpha$, $10^{-3}$ см$^{-1}$ \\
+\hline
+3.890  & 54.0 & 48.4 & 5.19984  & 1.03377 & 0.02177 \\
+7.810  & 54.0 & 46.0 & 10.06684 & 2.00136 & 0.03188 \\
+11.710 & 53.9 & 43.6 & 15.61459 & 3.10429 & 0.04253 \\
+15.710 & 54.1 & 41.2 & 19.70162 & 3.91682 & 0.05379 \\
+19.610 & 54.0 & 40.8 & 24.7947  & 4.92936 & 0.05579 \\
+23.510 & 53.9 & 39.6 & 29.87082 & 5.93853 & 0.06166 \\
+27.510 & 54.0 & 38.8 & 34.94192 & 6.9467  & 0.06572 \\
+31.510 & 54.0 & 36.0 & 39.61738 & 7.87622 & 0.08061 \\
+35.410 & 53.9 & 34.2 & 46.36901 & 9.21849 & 0.09081 \\
+39.410 & 54.0 & 33.2 & 51.42064 & 10.22279 & 0.09671 \\
+\hline
+\end{tabular}
+
+Значения посчитаны по формулам:
+\begin{equation}
+\alpha(\omega) = \frac{1}{l} \ln\left( \frac{U_0}{U_\text{н}} \right),
+\label{eq:attenuation_coefficient}
+\end{equation}
+\begin{equation}
+k(\omega) = \frac{\Delta \varphi}{l}.
+\label{eq:wave_number}
+\end{equation}
+\newpage
+Построим график хависимости $(k^2-\alpha^2)(\omega^2)$
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=16cm]{f1.PNG}
+	\caption{$(k^2-\alpha^2)(\omega^2)$}
+	\label{fig:Holl2}
+\end{figure}
+
+По данному графику получаем значения:
+\[
+L_x C_x = (1.52 \pm 0.04)
+\]
+
+В нашем случае $R_0$ равно 50~Ом, так что можно написать соотношения $L_x = c R_0 = (2.05 \pm 0.03)$~ед~СГС, $C_x = (0.74 \pm 0.02)$. Фазовая скорость же равна $V_\Phi = (2.43 \pm 0.07) \cdot 10^{10}$~см/с. 
+Зная, что $r_1 / r_2 = 2.92$, можно получить $\varepsilon = 1.58 \pm 0.04$ и $\mu = 0.96 \pm 0.03$ по формулам:
+\begin{equation}
+L_x = 2\mu \ln(r_2 / r_1),
+\label{eq:inductance_per_unit_from_radii}
+\end{equation}
+\begin{equation}
+C_x = \frac{2\varepsilon}{\ln(r_2 / r_1)}.
+\label{eq:capacitance_per_unit_from_radii}
+\end{equation}
+
+\subsection{Часть II. Определение удельной проводимости проводников.}
+\textbf{\Large{Метод А}}\par
+Построим график и апроксимируем его:
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=16cm]{f2.PNG}
+	\caption{$\alpha (\sqrt{\nu})$}
+	\label{fig:Holl2}
+\end{figure}
+
+Можем связать параметры данным уравнением
+\begin{equation}
+\alpha(\omega) = \frac{1}{l} \ln\left( \frac{U_0}{U_H} \right) = \frac{4}{\sqrt{\sigma d}} C_x \frac{V_\Phi}{c} \sqrt{\nu},
+\label{eq:attenuation_vs_frequency}
+\end{equation}
+А значит, построив график $\alpha(\sqrt{\nu})$ сможем по наклону предполагаемой прямой на графике определить $\sigma$.
+\[\sigma = (1.06 \pm 0.04)*10^{18}\]
+\newpage
+\textbf{\Large{Метод Б}}
+
+Для данного метода построим зависимость $\alpha k$ от $\nu^{3/2}$, чтобы из углового коэффициента определить $\sigma$.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=16cm]{f3.PNG}
+	\caption{$\alpha*k (\sqrt{\nu}^{3})$}
+	\label{fig:Holl2}
+\end{figure}
+
+Из теории известно, что
+\begin{equation}
+2\alpha k = \omega R_x C_x,
+\label{eq:theory_relation_1}
+\end{equation}
+которое можно свести к зависимости
+\begin{equation}
+y_3 = \frac{4\pi C_x}{c d \sqrt{\sigma}} x_3,
+\label{eq:linearized_relation}
+\end{equation}
+где $x_3 = \nu^{3/2}$, $y_3 = \alpha k$.
+
+Полученное значение коэффициента наклона
+\begin{equation}
+a = \frac{4\pi C_x}{c d \sqrt{\sigma}} = (3.76 \pm 0.02) \cdot 10^{-18}~\text{ед.\,СГС},
+\label{eq:slope_value}
+\end{equation}
+Отсюда получим
+\begin{equation}
+\sigma_2 = \left( \frac{4\pi C_x}{a c d} \right)^2 = (8.46 \pm 0.05) \cdot 10^{17}~\text{ед.\,СГС}.
+\label{eq:sigma_from_slope}
+\end{equation}
+\section{Вывод}
+Ознакомился и проверил  теорию распространения электрических сигналов вдоль длинной линии и определили ее погонные 
+характеристики. Найдены значения индуктивности и емкости. При вычислении удельной проводимости способ Б отличился от способа А на 21 процент.
+
+
+\end{document}
