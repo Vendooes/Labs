@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.6)  23 NOV 2025 16:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.6)  17 NOV 2025 21:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"d:/Labs/lab 3.6.1/lab 3.6.1.tex"
-(d:/Labs/lab 3.6.1/lab 3.6.1.tex
+**"d:/Labs/lab 3.5.1/lab 3.5.1.tex"
+(d:/Labs/lab 3.5.1/lab 3.5.1.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
 (D:\Miktex\tex/latex/base\article.cls
@@ -405,13 +405,6 @@ File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 \WF@box=\box55
 \WF@everypar=\toks26
 Package: wrapfig 2003/01/31  v 3.6
-) (D:\Miktex\tex/latex/float\float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count287
-\float@exts=\toks27
-\float@box=\box56
-\@float@everytoks=\toks28
-\@floatcapt=\box57
 ) (D:\Miktex\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
  (D:\Miktex\tex/latex/caption\caption.sty
@@ -428,83 +421,38 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen171
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count288
-\c@continuedfloat=\count289
-Package caption Info: float package is loaded.
+\c@caption@flags=\count287
+\c@continuedfloat=\count288
 Package caption Info: wrapfig package is loaded.
 )
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count290
+\c@subfigure=\count289
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count291
-) (D:\Miktex\tex/latex/enumitem\enumitem.sty
-Package: enumitem 2025/02/06 v3.11 Customized lists
-\labelindent=\skip54
-\enit@outerparindent=\dimen172
-\enit@toks=\toks29
-\enit@inbox=\box58
-\enit@count@id=\count292
-\enitdp@description=\count293
-) (lab 3.6.1.aux
-
-LaTeX Warning: Label `fig:image1' multiply defined.
-
-
-LaTeX Warning: Label `fig:image2' multiply defined.
-
-
-LaTeX Warning: Label `fig:Holl2' multiply defined.
-
-
-LaTeX Warning: Label `fig:Holl2' multiply defined.
-
-
-LaTeX Warning: Label `fig:image1' multiply defined.
-
-
-LaTeX Warning: Label `fig:image2' multiply defined.
-
-
-LaTeX Warning: Label `fig:image1' multiply defined.
-
-
-LaTeX Warning: Label `fig:image2' multiply defined.
-
-
-LaTeX Warning: Label `fig:image1' multiply defined.
-
-
-LaTeX Warning: Label `fig:image2' multiply defined.
-
-
-LaTeX Warning: Label `fig:Holl2' multiply defined.
-
-
-LaTeX Warning: Label `fig:Holl2' multiply defined.
-
+\c@subtable=\count290
+) (lab 3.5.1.aux
 
 LaTeX Warning: Label `fig:Holl2' multiply defined.
 
 )
-\openout1 = `"lab 3.6.1.aux"'.
+\openout1 = `"lab 3.5.1.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Info: Redefining \th on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Info: Redefining \th on input line 18.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -542,17 +490,17 @@ LaTeX Info: Redefining \th on input line 23.
 
 (D:\Miktex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count294
-\scratchdimen=\dimen173
-\scratchbox=\box59
-\nofMPsegments=\count295
-\nofMParguments=\count296
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count297
-\MPscratchDim=\dimen174
-\MPnumerator=\count298
-\makeMPintoPDFobject=\count299
-\everyMPtoPDFconversion=\toks31
+\scratchcounter=\count291
+\scratchdimen=\dimen172
+\scratchbox=\box56
+\nofMPsegments=\count292
+\nofMParguments=\count293
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count294
+\MPscratchDim=\dimen173
+\MPnumerator=\count295
+\makeMPintoPDFobject=\count296
+\everyMPtoPDFconversion=\toks28
 ) (D:\Miktex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -561,360 +509,25 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 25.
- (D:\Miktex\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 25.
- (D:\Miktex\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Overfull \hbox (27.12762pt too wide) in paragraph at lines 32--34
-[]\T2A/cmr/bx/n/10 Цель работы: \T2A/cmr/m/n/10 изучить спектры сигналов различной формы и влияние параметров сигнала на вид соответствующих
- []
+<f1.PNG, id=1, 682.04813pt x 345.54094pt>
+File: f1.PNG Graphic file (type png)
+<use f1.PNG>
+Package pdftex.def Info: f1.PNG  used on input line 22.
+(pdftex.def)             Requested size: 426.79134pt x 216.22617pt.
+File: f1.PNG Graphic file (type png)
+<use f1.PNG>
+Package pdftex.def Info: f1.PNG  used on input line 29.
+(pdftex.def)             Requested size: 426.79134pt x 216.22617pt.
 
 
-Overfull \hbox (21.81912pt too wide) in paragraph at lines 66--67
-[]\T2A/cmr/bx/n/10 Периодическая последовательность прямоугольных импульсов \T2A/cmr/m/n/10 (рис. 1) с амплитудой $\OML/cmm/m/it/10 V[]$\T2A/cmr/m/n/10 , длительностью
- []
-
-
-Overfull \hbox (47.35338pt too wide) in paragraph at lines 76--77
-[]\T2A/cmr/m/n/10 Поскольку наша функция четная, все коэффициенты синусоидальных гармоник $\OML/cmm/m/it/10 b[] \OT1/cmr/m/n/10 = 0$\T2A/cmr/m/n/10 . Спектр $\OML/cmm/m/it/10 a[]$ \T2A/cmr/m/n/10 последовательности
- []
-
-<sp1.png, id=1, 839.135pt x 524.96124pt>
-File: sp1.png Graphic file (type png)
-<use sp1.png>
-Package pdftex.def Info: sp1.png  used on input line 81.
-(pdftex.def)             Requested size: 233.02649pt x 145.7786pt.
-<sp2.png, id=2, 858.20625pt x 524.96124pt>
-File: sp2.png Graphic file (type png)
-<use sp2.png>
-Package pdftex.def Info: sp2.png  used on input line 85.
-(pdftex.def)             Requested size: 233.02649pt x 142.53444pt.
-
-Overfull \hbox (2.22168pt too wide) in paragraph at lines 80--88
-[]$[]$ $[]$ 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+Package caption Warning: Unused \captionsetup[table] on input line 16.
+See the caption package documentation for explanation.
 
 
 
 [1
 
-{C:/Users/vendo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Overfull \hbox (39.24084pt too wide) in paragraph at lines 111--112
-[]\T2A/cmr/m/n/10 Зависимость для случая, когда $[]$ равно целому числу, представлена на рис. 4. Сравнивая спектр последовательности
- []
-
-<sp3.png, id=24, 782.925pt x 448.67625pt>
-File: sp3.png Graphic file (type png)
-<use sp3.png>
-Package pdftex.def Info: sp3.png  used on input line 115.
-(pdftex.def)             Requested size: 233.02649pt x 133.53589pt.
-<sp4.png, id=25, 729.72626pt x 448.67625pt>
-File: sp4.png Graphic file (type png)
-<use sp4.png>
-Package pdftex.def Info: sp4.png  used on input line 119.
-(pdftex.def)             Requested size: 233.02649pt x 143.27809pt.
-
-Overfull \hbox (2.22168pt too wide) in paragraph at lines 114--122
-[]$[]$ $[]$ 
- []
-
-
-Overfull \hbox (13.0474pt too wide) in paragraph at lines 130--131
-[]\T2A/cmr/m/n/10 Коэффициент $\OML/cmm/m/it/10 m$ \T2A/cmr/m/n/10 называют \T2A/cmr/bx/n/10 глубиной модуляции\T2A/cmr/m/n/10 . При $\OML/cmm/m/it/10 m < \OT1/cmr/m/n/10 1$ \T2A/cmr/m/n/10 амплитуда колебаний меняется от минимальной
- []
-
-
-Overfull \hbox (13.70282pt too wide) in paragraph at lines 136--138
-[]\T2A/cmr/m/n/10 Простым тригонометрическим преобразованием можно найти спектр амплитудно - модулированных колебаний: 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--138
-
- []
-
-<sp5.png, id=26, 538.01pt x 286.06876pt>
-File: sp5.png Graphic file (type png)
-<use sp5.png>
-Package pdftex.def Info: sp5.png  used on input line 144.
-(pdftex.def)             Requested size: 233.02649pt x 123.902pt.
-<sp6.png, id=27, 412.54124pt x 286.06876pt>
-File: sp6.png Graphic file (type png)
-<use sp6.png>
-Package pdftex.def Info: sp6.png  used on input line 148.
-(pdftex.def)             Requested size: 233.02649pt x 161.58986pt.
-
-Underfull \hbox (badness 1371) in paragraph at lines 149--149
-[]\T2A/cmr/m/n/10 Рисунок 6: |Спектр модулированных гармонических
- []
-
-
-Overfull \hbox (2.22168pt too wide) in paragraph at lines 143--151
-[]$[]$ $[]$ 
- []
-
-
-
-[2 <./sp1.png> <./sp2.png> <./sp3.png> <./sp4.png>]
-
-LaTeX Warning: Command \cyro invalid in math mode on input line 155.
-
-
-LaTeX Warning: Command \cyrs invalid in math mode on input line 155.
-
-
-LaTeX Warning: Command \cyrn invalid in math mode on input line 155.
-
-Missing character: There is no о in font cmr7!
-Missing character: There is no с in font cmr7!
-Missing character: There is no н in font cmr7!
-
-LaTeX Warning: Command \cyrb invalid in math mode on input line 156.
-
-
-LaTeX Warning: Command \cyro invalid in math mode on input line 156.
-
-
-LaTeX Warning: Command \cyrk invalid in math mode on input line 156.
-
-Missing character: There is no б in font cmr7!
-Missing character: There is no о in font cmr7!
-Missing character: There is no к in font cmr7!
-
-Overfull \hbox (9.12741pt too wide) in paragraph at lines 168--169
-[]\T2A/cmr/bx/n/10 2. \T2A/cmr/m/n/10 Мы получаем устойчивую картину сигнала на экране осциллографа (см. техническое описание осциллографа,
- []
-
-
-Overfull \hbox (0.63763pt too wide) in paragraph at lines 178--181
-[]\T2A/cmr/bx/n/10 4.\T2A/cmr/m/n/10 Изменяя на генераторе параметры сигнала, мы наблюдаем, как изменяется спектр. В лабораторном журнале
- []
-
-<50_1k.jpg, id=35, 1284.8pt x 963.6pt>
-File: 50_1k.jpg Graphic file (type jpg)
-<use 50_1k.jpg>
-Package pdftex.def Info: 50_1k.jpg  used on input line 192.
-(pdftex.def)             Requested size: 284.52756pt x 213.38947pt.
-
-Overfull \hbox (35.96649pt too wide) in paragraph at lines 192--193
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
-[]\T2A/cmr/m/n/10 Рисунок 7: |при изменении $\OML/cmm/m/it/10 ^^W[]$ \T2A/cmr/m/n/10 при
- []
-
-<50_9.jpg, id=36, 1284.8pt x 963.6pt>
-File: 50_9.jpg Graphic file (type jpg)
-<use 50_9.jpg>
-Package pdftex.def Info: 50_9.jpg  used on input line 198.
-(pdftex.def)             Requested size: 284.52756pt x 213.38947pt.
-
-Overfull \hbox (35.96649pt too wide) in paragraph at lines 198--199
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 199--199
-[]\T2A/cmr/m/n/10 Рисунок 8: |при изменении $\OML/cmm/m/it/10 ^^W[]$ \T2A/cmr/m/n/10 при
- []
-
-<100_1k.jpg, id=37, 1284.8pt x 963.6pt>
-File: 100_1k.jpg Graphic file (type jpg)
-<use 100_1k.jpg>
-Package pdftex.def Info: 100_1k.jpg  used on input line 208.
-(pdftex.def)             Requested size: 284.52756pt x 213.38947pt.
-
-Overfull \hbox (35.96649pt too wide) in paragraph at lines 208--209
- [][] 
- []
-
-
-Underfull \hbox (badness 3364) in paragraph at lines 209--209
-[]\T2A/cmr/m/n/10 Рисунок 9: |при изменении $\OML/cmm/m/it/10 ^^\ \OT1/cmr/m/n/10 = 100\OML/cmm/m/it/10 nsec$ \T2A/cmr/m/n/10 при
- []
-
-<150_1k.jpg, id=38, 1284.8pt x 963.6pt>
-File: 150_1k.jpg Graphic file (type jpg)
-<use 150_1k.jpg>
-Package pdftex.def Info: 150_1k.jpg  used on input line 214.
-(pdftex.def)             Requested size: 284.52756pt x 213.38947pt.
-
-Overfull \hbox (35.96649pt too wide) in paragraph at lines 214--215
- [][] 
- []
-
-
-Underfull \hbox (badness 2452) in paragraph at lines 215--215
-[]\T2A/cmr/m/n/10 Рисунок 10: |при изменении $\OML/cmm/m/it/10 ^^\ \OT1/cmr/m/n/10 = 150\OML/cmm/m/it/10 nsec$ \T2A/cmr/m/n/10 при
- []
-
-
-
-[3 <./sp5.png> <./sp6.png>]
-
-[4 <./50_1k.jpg> <./50_9.jpg> <./100_1k.jpg> <./150_1k.jpg>]
-<f1.PNG, id=48, 722.7pt x 433.62pt>
-File: f1.PNG Graphic file (type png)
-<use f1.PNG>
-Package pdftex.def Info: f1.PNG  used on input line 269.
-(pdftex.def)             Requested size: 540.60236pt x 324.36067pt.
-
-Overfull \hbox (22.76218pt too wide) in paragraph at lines 269--270
- [][] 
- []
-
-
-
-[5 <./f1.PNG>]
-<f2.PNG, id=54, 867.24pt x 505.89pt>
-File: f2.PNG Graphic file (type png)
-<use f2.PNG>
-Package pdftex.def Info: f2.PNG  used on input line 316.
-(pdftex.def)             Requested size: 540.60236pt x 315.36221pt.
-
-Overfull \hbox (22.76218pt too wide) in paragraph at lines 316--317
- [][] 
- []
-
-
-
-[6 <./f2.PNG>]
-<p2.jpg, id=60, 1284.8pt x 963.6pt>
-File: p2.jpg Graphic file (type jpg)
-<use p2.jpg>
-Package pdftex.def Info: p2.jpg  used on input line 338.
-(pdftex.def)             Requested size: 398.33858pt x 298.75702pt.
-<P14.jpg, id=61, 1284.8pt x 963.6pt>
-File: P14.jpg Graphic file (type jpg)
-<use P14.jpg>
-Package pdftex.def Info: P14.jpg  used on input line 376.
-(pdftex.def)             Requested size: 284.52756pt x 213.38947pt.
-
-Overfull \hbox (35.96649pt too wide) in paragraph at lines 376--377
- [][] 
- []
-
-<PN.jpg, id=62, 1284.8pt x 963.6pt>
-File: PN.jpg Graphic file (type jpg)
-<use PN.jpg>
-Package pdftex.def Info: PN.jpg  used on input line 382.
-(pdftex.def)             Requested size: 284.52756pt x 213.38947pt.
-
-Overfull \hbox (35.96649pt too wide) in paragraph at lines 382--383
- [][] 
- []
-
-File: P14.jpg Graphic file (type jpg)
-<use P14.jpg>
-Package pdftex.def Info: P14.jpg  used on input line 390.
-(pdftex.def)             Requested size: 284.52756pt x 213.38947pt.
-
-Overfull \hbox (35.96649pt too wide) in paragraph at lines 390--391
- [][] 
- []
-
-<Pt.jpg, id=63, 1284.8pt x 963.6pt>
-File: Pt.jpg Graphic file (type jpg)
-<use Pt.jpg>
-Package pdftex.def Info: Pt.jpg  used on input line 396.
-(pdftex.def)             Requested size: 284.52756pt x 213.38947pt.
-
-Overfull \hbox (35.96649pt too wide) in paragraph at lines 396--397
- [][] 
- []
-
-File: P14.jpg Graphic file (type jpg)
-<use P14.jpg>
-Package pdftex.def Info: P14.jpg  used on input line 404.
-(pdftex.def)             Requested size: 284.52756pt x 213.38947pt.
-
-Overfull \hbox (35.96649pt too wide) in paragraph at lines 404--405
- [][] 
- []
-
-<Pnn.jpg, id=64, 1284.8pt x 963.6pt>
-File: Pnn.jpg Graphic file (type jpg)
-<use Pnn.jpg>
-Package pdftex.def Info: Pnn.jpg  used on input line 410.
-(pdftex.def)             Requested size: 284.52756pt x 213.38947pt.
-
-Overfull \hbox (35.96649pt too wide) in paragraph at lines 410--411
- [][] 
- []
-
-
-
-[7 <./p2.jpg>]
-
-[8 <./P14.jpg> <./PN.jpg> <./Pt.jpg> <./Pnn.jpg>]
-Overfull \hbox (0.45605pt too wide) in paragraph at lines 421--423
-[]\T2A/cmr/m/n/10 Следуя техническому описанию генератора, мы устанавливаем на нјм режим модулированного по амплитуде
- []
-
-<F3.png, id=72, 722.7pt x 433.62pt>
-File: F3.png Graphic file (type png)
-<use F3.png>
-Package pdftex.def Info: F3.png  used on input line 450.
-(pdftex.def)             Requested size: 512.1496pt x 307.2901pt.
-
-
-[9 <./F3.png>]
-<p6.png, id=78, 286.06876pt x 95.6072pt>
-File: p6.png Graphic file (type png)
-<use p6.png>
-Package pdftex.def Info: p6.png  used on input line 464.
-(pdftex.def)             Requested size: 284.52756pt x 95.09343pt.
-
-Overfull \hbox (5.63011pt too wide) in paragraph at lines 474--475
-[]\T2A/cmr/m/n/10 Мы наблюдаем форму сигнала и его спектр на выходе $\OML/cmm/m/it/10 RC$\T2A/cmr/m/n/10 -цепочки (ѕфильтрованныйї сигнал) при различных
- []
-
-
-Overfull \hbox (30.76382pt too wide) in paragraph at lines 476--480
-\T2A/cmr/m/n/10 измерить амплитуды $\OML/cmm/m/it/10 a[]$ \T2A/cmr/m/n/10 спектра исходного сигнала, мы переподключаем генератор к первому каналу осциллографа
- []
-
-
-Overfull \hbox (5.64923pt too wide) in paragraph at lines 476--480
-\T2A/cmr/m/n/10 напрямую или с помощью отдельного кабеля подајм нефильтрованный сигнал на второй канал осциллографа. 
- []
-
-<f4.png, id=79, 722.7pt x 433.62pt>
-File: f4.png Graphic file (type png)
-<use f4.png>
-Package pdftex.def Info: f4.png  used on input line 496.
-(pdftex.def)             Requested size: 540.60236pt x 324.36067pt.
-
-Overfull \hbox (22.76218pt too wide) in paragraph at lines 496--497
- [][] 
- []
-
-
-LaTeX Warning: Command \cyrm invalid in math mode on input line 501.
-
-
-LaTeX Warning: Command \cyrk invalid in math mode on input line 501.
-
-
-LaTeX Warning: Command \cyrs invalid in math mode on input line 501.
-
-Missing character: There is no м in font cmr10!
-Missing character: There is no к in font cmr10!
-Missing character: There is no с in font cmr10!
-
-
-[10 <./p6.png> <./f4.png>]
-
-[11] (lab 3.6.1.aux)
+{C:/Users/vendo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./f1.PNG>] (lab 3.5.1.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
@@ -925,17 +538,17 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7655 strings out of 473898
- 117010 string characters out of 5742894
- 527986 words of memory out of 5000000
- 30426 multiletter control sequences out of 15000+600000
- 574443 words of font info for 79 fonts, out of 8000000 for 9000
+ 7016 strings out of 473898
+ 107048 string characters out of 5742894
+ 507533 words of memory out of 5000000
+ 29828 multiletter control sequences out of 15000+600000
+ 558866 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,13n,93p,557b,560s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0500.pk> <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0700.pk> <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1000.pk> <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1000.pk> <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1728.pk><D:/Miktex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/Miktex/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on "lab 3.6.1.pdf" (11 pages, 2161808 bytes).
+ 79i,6n,93p,356b,332s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk>
+Output written on "lab 3.5.1.pdf" (1 page, 40632 bytes).
 PDF statistics:
- 451 PDF objects out of 1000 (max. 8388607)
+ 36 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
