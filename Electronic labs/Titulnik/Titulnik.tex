@@ -1,0 +1,387 @@
+\documentclass[12pt]{article}
+\usepackage{mathptmx}
+\usepackage[utf8]{inputenc}
+\usepackage{cmap}
+\usepackage{mathtext}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage[russian,english]{babel}
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} % AMS
+\usepackage{icomma}
+\usepackage[T2A]{fontenc}
+\usepackage[left=10mm, top=20mm, right=18mm, bottom=15mm, footskip=10mm]{geometry}
+\usepackage{indentfirst}
+\usepackage{euscript}	 % Шрифт Евклид
+\usepackage{mathrsfs} % Красивый матшрифт
+\usepackage{amsmath,amssymb}
+\usepackage[italicdiff]{physics}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+\usepackage{wrapfig}
+\usepackage{subcaption}
+\usepackage{caption}
+\usepackage{hyperref}
+\usepackage[rgb]{xcolor}
+\hypersetup{				% Гиперссылки
+    colorlinks=true,       	% false: ссылки в рамках
+	urlcolor=blue          % на URL
+}
+\captionsetup[figure]{name=Рисунок}
+\captionsetup[table]{name=Таблица}
+
+
+% Определяем команду для строки оглавления с отточками
+\newcommand{\tocline}[2]{%
+  \noindent\makebox[0pt][l]{#1}\hfill
+  \leaders\hbox to 1.5mm{\hss.\hss}\hfill
+  \makebox[0pt][r]{#2}\par
+}
+
+% Альтернативный стиль (более надёжный, работает всегда):
+\newcommand{\tocentry}[2]{%
+  \noindent
+  \parbox[t]{0.8\textwidth}{\raggedright #1}%
+  \parbox[t]{0.15\textwidth}{\raggedleft #2}%
+  \par
+  \vspace{-1.2\baselineskip}
+  \noindent\leaders\hbox to 1.5mm{\hss.\hss}\hfill\mbox{}%
+  \par
+  \vspace{0.8\baselineskip}
+}
+
+% Но самый простой и надёжный способ — через \dotfill:
+\newcommand{\tocitem}[2]{%
+  \noindent #1 \dotfill\ #2\par
+}
+
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+
+% Верхняя часть титульного листа
+\large
+Министерство науки и высшего образования Российской Федерации \\
+\large
+ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ АВТОНОМНОЕ \\
+ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ ВЫСШЕГО ОБРАЗОВАНИЯ \\
+\large
+«МОСКОВСКИЙ ФИЗИКО-ТЕХНИЧЕСКИЙ ИНСТИТУТ \\
+(НАЦИОНАЛЬНЫЙ ИССЛЕДОВАТЕЛЬСКИЙ УНИВЕРСИТЕТ)» \\
+(МФТИ, Физтех)
+
+\vspace{4cm}
+
+% Основная информация
+\large
+КАФЕДРА ЭЛЕКТРОНИКИ
+
+\vspace{0.7cm}
+
+\Large
+ОТЧЕТ \\
+ПО ЛАБОРАТОРНОЙ РАБОТЕ
+
+\vspace{0.7cm}
+
+\large
+\textbf{ НАПЫЛЕНИЕ ТОНКИХ ПЛЕНОК}
+
+\vfill
+
+% Блок с подписями
+\noindent
+Работу выполнил \hfill \underline{\hspace{6cm}} Д.А.Воронин Б04-407 \\
+\hfill \small{(подпись, дата)}\par
+
+\vspace{3cm}
+
+\noindent
+Работу принял, оценка \hfill \underline{\hspace{6cm}} \\
+\hfill \small{(подпись, дата, оценка)}
+
+\vfill
+
+% Нижняя часть
+Долгопрудный 2025
+
+\end{center}
+
+
+%%%%%%%%%%%%%
+
+\thispagestyle{empty}
+
+\begin{center}
+
+% Верхняя часть титульного листа
+\large
+Министерство науки и высшего образования Российской Федерации \\
+\large
+ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ АВТОНОМНОЕ \\
+ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ ВЫСШЕГО ОБРАЗОВАНИЯ \\
+\large
+«МОСКОВСКИЙ ФИЗИКО-ТЕХНИЧЕСКИЙ ИНСТИТУТ \\
+(НАЦИОНАЛЬНЫЙ ИССЛЕДОВАТЕЛЬСКИЙ УНИВЕРСИТЕТ)» \\
+(МФТИ, Физтех)
+
+\vspace{4cm}
+
+% Основная информация
+\large
+КАФЕДРА ЭЛЕКТРОНИКИ
+
+\vspace{0.7cm}
+
+\Large
+ОТЧЕТ \\
+ПО ЛАБОРАТОРНОЙ РАБОТЕ
+
+\vspace{0.7cm}
+
+\large
+\textbf{ НАПЫЛЕНИЕ ТОНКИХ ПЛЕНОК}
+
+\vfill
+
+% Блок с подписями
+\noindent
+Работу выполнил \hfill \underline{\hspace{6cm}} Н.В.Дрожжин Б04-407 \\
+\hfill \small{(подпись, дата)}\par
+
+\vspace{3cm}
+
+\noindent
+Работу принял, оценка \hfill \underline{\hspace{6cm}} \\
+\hfill \small{(подпись, дата, оценка)}
+
+\vfill
+
+% Нижняя часть
+Долгопрудный 2025
+
+\end{center}
+
+
+%%%%%%%%%%%%%%
+
+\thispagestyle{empty}
+
+\begin{center}
+
+% Верхняя часть титульного листа
+\large
+Министерство науки и высшего образования Российской Федерации \\
+\large
+ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ АВТОНОМНОЕ \\
+ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ ВЫСШЕГО ОБРАЗОВАНИЯ \\
+\large
+«МОСКОВСКИЙ ФИЗИКО-ТЕХНИЧЕСКИЙ ИНСТИТУТ \\
+(НАЦИОНАЛЬНЫЙ ИССЛЕДОВАТЕЛЬСКИЙ УНИВЕРСИТЕТ)» \\
+(МФТИ, Физтех)
+
+\vspace{4cm}
+
+% Основная информация
+\large
+КАФЕДРА ЭЛЕКТРОНИКИ
+
+\vspace{0.7cm}
+
+\Large
+ОТЧЕТ \\
+ПО ЛАБОРАТОРНОЙ РАБОТЕ
+
+\vspace{0.7cm}
+
+\large
+\textbf{ НАПЫЛЕНИЕ ТОНКИХ ПЛЕНОК}
+
+\vfill
+
+% Блок с подписями
+\noindent
+Работу выполнил \hfill \underline{\hspace{6cm}} Т.А.Ганицев Б04-407 \\
+\hfill \small{(подпись, дата)}\par
+
+\vspace{3cm}
+
+\noindent
+Работу принял, оценка \hfill \underline{\hspace{6cm}} \\
+\hfill \small{(подпись, дата, оценка)}
+
+\vfill
+
+% Нижняя часть
+Долгопрудный 2025
+
+\end{center}
+
+%%%%%%%%%%%
+
+\thispagestyle{empty}
+
+\begin{center}
+
+% Верхняя часть титульного листа
+\large
+Министерство науки и высшего образования Российской Федерации \\
+\large
+ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ АВТОНОМНОЕ \\
+ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ ВЫСШЕГО ОБРАЗОВАНИЯ \\
+\large
+«МОСКОВСКИЙ ФИЗИКО-ТЕХНИЧЕСКИЙ ИНСТИТУТ \\
+(НАЦИОНАЛЬНЫЙ ИССЛЕДОВАТЕЛЬСКИЙ УНИВЕРСИТЕТ)» \\
+(МФТИ, Физтех)
+
+\vspace{4cm}
+
+% Основная информация
+\large
+КАФЕДРА ЭЛЕКТРОНИКИ
+
+\vspace{0.7cm}
+
+\Large
+ОТЧЕТ \\
+ПО ЛАБОРАТОРНОЙ РАБОТЕ
+
+\vspace{0.7cm}
+
+\large
+\textbf{ НАПЫЛЕНИЕ ТОНКИХ ПЛЕНОК}
+
+\vfill
+
+% Блок с подписями
+\noindent
+Работу выполнил \hfill \underline{\hspace{6cm}} В.С.Анисимов Б04-407 \\
+\hfill \small{(подпись, дата)}\par
+
+\vspace{3cm}
+
+\noindent
+Работу принял, оценка \hfill \underline{\hspace{6cm}} \\
+\hfill \small{(подпись, дата, оценка)}
+
+\vfill
+
+% Нижняя часть
+Долгопрудный 2025
+
+\end{center}
+
+%%%%%%%%%%%%%
+
+\thispagestyle{empty}
+
+\begin{center}
+
+% Верхняя часть титульного листа
+\large
+Министерство науки и высшего образования Российской Федерации \\
+\large
+ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ АВТОНОМНОЕ \\
+ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ ВЫСШЕГО ОБРАЗОВАНИЯ \\
+\large
+«МОСКОВСКИЙ ФИЗИКО-ТЕХНИЧЕСКИЙ ИНСТИТУТ \\
+(НАЦИОНАЛЬНЫЙ ИССЛЕДОВАТЕЛЬСКИЙ УНИВЕРСИТЕТ)» \\
+(МФТИ, Физтех)
+
+\vspace{4cm}
+
+% Основная информация
+\large
+КАФЕДРА ЭЛЕКТРОНИКИ
+
+\vspace{0.7cm}
+
+\Large
+ОТЧЕТ \\
+ПО ЛАБОРАТОРНОЙ РАБОТЕ
+
+\vspace{0.7cm}
+
+\large
+\textbf{ НАПЫЛЕНИЕ ТОНКИХ ПЛЕНОК}
+
+\vfill
+
+% Блок с подписями
+\noindent
+Работу выполнил \hfill \underline{\hspace{6cm}} Т.А.Закатова Б04-407 \\
+\hfill \small{(подпись, дата)}\par
+
+\vspace{3cm}
+
+\noindent
+Работу принял, оценка \hfill \underline{\hspace{6cm}} \\
+\hfill \small{(подпись, дата, оценка)}
+
+\vfill
+
+% Нижняя часть
+Долгопрудный 2025
+
+\end{center}
+
+%%%%%%%%%%%%%
+
+\thispagestyle{empty}
+
+\begin{center}
+
+% Верхняя часть титульного листа
+\large
+Министерство науки и высшего образования Российской Федерации \\
+\large
+ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ АВТОНОМНОЕ \\
+ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ ВЫСШЕГО ОБРАЗОВАНИЯ \\
+\large
+«МОСКОВСКИЙ ФИЗИКО-ТЕХНИЧЕСКИЙ ИНСТИТУТ \\
+(НАЦИОНАЛЬНЫЙ ИССЛЕДОВАТЕЛЬСКИЙ УНИВЕРСИТЕТ)» \\
+(МФТИ, Физтех)
+
+\vspace{4cm}
+
+% Основная информация
+\large
+КАФЕДРА ЭЛЕКТРОНИКИ
+
+\vspace{0.7cm}
+
+\Large
+ОТЧЕТ \\
+ПО ЛАБОРАТОРНОЙ РАБОТЕ
+
+\vspace{0.7cm}
+
+\large
+\textbf{ НАПЫЛЕНИЕ ТОНКИХ ПЛЕНОК}
+
+\vfill
+
+% Блок с подписями
+\noindent
+Работу выполнил \hfill \underline{\hspace{6cm}} М.А.Кручинин Б04-407 \\
+\hfill \small{(подпись, дата)}\par
+
+\vspace{3cm}
+
+\noindent
+Работу принял, оценка \hfill \underline{\hspace{6cm}} \\
+\hfill \small{(подпись, дата, оценка)}
+
+\vfill
+
+% Нижняя часть
+Долгопрудный 2025
+
+\end{center}
+
+
+\end{document}
