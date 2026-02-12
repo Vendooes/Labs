@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.31)  7 FEB 2026 17:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.31)  11 FEB 2026 20:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"d:/Labs/lab 3.3.4/lab.tex"
-(d:/Labs/lab 3.3.4/lab.tex
+**"d:/Labs/lab 4.7.1/lab 4.7.1.tex"
+(d:/Labs/lab 4.7.1/lab 4.7.1.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (D:\Miktex\tex/latex/base\article.cls
@@ -414,6 +414,13 @@ File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 \WF@box=\box55
 \WF@everypar=\toks26
 Package: wrapfig 2003/01/31  v 3.6
+) (D:\Miktex\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count302
+\float@exts=\toks27
+\float@box=\box56
+\@float@everytoks=\toks28
+\@floatcapt=\box57
 ) (D:\Miktex\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
  (D:\Miktex\tex/latex/caption\caption.sty
@@ -430,15 +437,33 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen178
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count302
-\c@continuedfloat=\count303
+\c@caption@flags=\count303
+\c@continuedfloat=\count304
+Package caption Info: float package is loaded.
 Package caption Info: wrapfig package is loaded.
 )
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count304
+\c@subfigure=\count305
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count305
-) (lab.aux
+\c@subtable=\count306
+) (D:\Miktex\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip54
+\enit@outerparindent=\dimen179
+\enit@toks=\toks29
+\enit@inbox=\box58
+\enit@count@id=\count307
+\enitdp@description=\count308
+) (D:\Miktex\tex/latex/tools\array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen180
+\ar@mcellbox=\box59
+\extrarowheight=\dimen181
+\NC@list=\toks30
+\extratabsurround=\skip55
+\backup@length=\skip56
+\ar@cellbox=\box60
+) (lab 4.7.1.aux
 
 LaTeX Warning: Label `fig:example' multiply defined.
 
@@ -446,25 +471,13 @@ LaTeX Warning: Label `fig:example' multiply defined.
 LaTeX Warning: Label `fig:example' multiply defined.
 
 
-LaTeX Warning: Label `tab:my_table' multiply defined.
+LaTeX Warning: Label `fig:example' multiply defined.
 
 
-LaTeX Warning: Label `tab:my_table' multiply defined.
+LaTeX Warning: Label `fig:example' multiply defined.
 
 
-LaTeX Warning: Label `tab:my_table' multiply defined.
-
-
-LaTeX Warning: Label `tab:my_table' multiply defined.
-
-
-LaTeX Warning: Label `tab:my_table' multiply defined.
-
-
-LaTeX Warning: Label `tab:my_table' multiply defined.
-
-
-LaTeX Warning: Label `tab:my_table' multiply defined.
+LaTeX Warning: Label `fig:example' multiply defined.
 
 
 LaTeX Warning: Label `fig:example' multiply defined.
@@ -479,25 +492,25 @@ LaTeX Warning: Label `fig:example' multiply defined.
 LaTeX Warning: Label `fig:example' multiply defined.
 
 )
-\openout1 = `lab.aux'.
+\openout1 = `"lab 4.7.1.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Info: Redefining \th on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Info: Redefining \th on input line 24.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -535,17 +548,17 @@ LaTeX Info: Redefining \th on input line 21.
 
 (D:\Miktex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count306
-\scratchdimen=\dimen179
-\scratchbox=\box56
-\nofMPsegments=\count307
-\nofMParguments=\count308
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count309
-\MPscratchDim=\dimen180
-\MPnumerator=\count310
-\makeMPintoPDFobject=\count311
-\everyMPtoPDFconversion=\toks28
+\scratchcounter=\count309
+\scratchdimen=\dimen182
+\scratchbox=\box61
+\nofMPsegments=\count310
+\nofMParguments=\count311
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count312
+\MPscratchDim=\dimen183
+\MPnumerator=\count313
+\makeMPintoPDFobject=\count314
+\everyMPtoPDFconversion=\toks32
 ) (D:\Miktex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -554,167 +567,206 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
  (D:\Miktex\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
  (D:\Miktex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (5.32845pt too wide) in paragraph at lines 32--34
-[]\T2A/cmr/bx/n/10 В работе используются: \T2A/cmr/m/n/10 электромагнит с источником питания GPR; цифровой вольтметр В7-65/5; батарейка
+Overfull \hbox (15.18773pt too wide) in paragraph at lines 39--41
+\T2A/cmr/bx/n/10 преломления $\OML/cmm/m/it/10 n[]$ \T2A/cmr/bx/n/10 и $\OML/cmm/m/it/10 n[]$ \T2A/cmr/m/n/10 исландского шпат, сняв для обыкновенного и необыкновенного лучей зависимость координаты
+ []
+
+<pi1.png, id=1, 182.18062pt x 109.91063pt>
+File: pi1.png Graphic file (type png)
+<use pi1.png>
+Package pdftex.def Info: pi1.png  used on input line 46.
+(pdftex.def)             Requested size: 155.35362pt x 93.72969pt.
+
+Overfull \hbox (46.01155pt too wide) in paragraph at lines 52--53
+[][]\T2A/cmr/m/n/10 Рассмотрим особенности распространения электромагнитных
  []
 
 
-Overfull \hbox (6.79193pt too wide) in paragraph at lines 43--45
-[]\T2A/cmr/m/n/10 Эта сила вызывает движение носителей, направление которого в общем случае не совпадает с $[]$. Действительно,
- []
-
-<p1.png, id=1, 332.74312pt x 238.64156pt>
-File: p1.png Graphic file (type png)
-<use p1.png>
-Package pdftex.def Info: p1.png  used on input line 70.
-(pdftex.def)             Requested size: 248.56107pt x 178.27065pt.
-
-Underfull \hbox (badness 1688) in paragraph at lines 78--79
-\T2A/cmr/m/n/10 направим вдоль оси $\OML/cmm/m/it/10 z$\T2A/cmr/m/n/10 , а о направлении $[]$ и $[]$
+Underfull \hbox (badness 1688) in paragraph at lines 52--53
+\T2A/cmr/m/n/10 волн в анизотропных средах, то есть веществах,
  []
 
 
-Underfull \hbox (badness 2401) in paragraph at lines 78--79
-\T2A/cmr/m/n/10 никаких предположений делать не будем. При
+Underfull \hbox (badness 4832) in paragraph at lines 54--55
+[]\T2A/cmr/m/n/10 При падении света на некоторые кристаллы
  []
 
 
-Overfull \hbox (18.84457pt too wide) in paragraph at lines 90--91
-[]\T2A/cmr/m/n/10 Полученное соотношение можно назвать \T2A/cmr/bx/n/10 обобщјнным
+Overfull \hbox (11.37746pt too wide) in paragraph at lines 54--55
+\T2A/cmr/m/n/10 Один из них, следующий обычным законом преломления,
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 54--55
+\T2A/cmr/m/n/10 <<$\OML/cmm/m/it/10 o$\T2A/cmr/m/n/10 >> = \T2A/cmr/m/it/10 or-di-nary\T2A/cmr/m/n/10 ), а второй ^^V \T2A/cmr/bx/n/10 необыкновенным
+ []
+
+<pi2.png, id=3, 146.79843pt x 166.37157pt>
+File: pi2.png Graphic file (type png)
+<use pi2.png>
+Package pdftex.def Info: pi2.png  used on input line 66.
+(pdftex.def)             Requested size: 103.56645pt x 117.37573pt.
+
+Underfull \hbox (badness 4391) in paragraph at lines 72--73
+[][]\T2A/cmr/m/n/10 Для обыкновенного луча показатель преломления не зависит от
+ []
+
+
+Underfull \hbox (badness 4242) in paragraph at lines 74--75
+[]\T2A/cmr/m/n/10 Распространение электромагнитных волн описывается уравнениями
  []
 
 [1
 
-{C:/Users/vendo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./p1.png>]
-<p2.png, id=19, 353.82187pt x 254.45062pt>
-File: p2.png Graphic file (type png)
-<use p2.png>
-Package pdftex.def Info: p2.png  used on input line 98.
-(pdftex.def)             Requested size: 181.24722pt x 130.3466pt.
+{C:/Users/vendo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./pi1.png> <./pi2.png>]
+<pi3.png, id=22, 475.7775pt x 167.12437pt>
+File: pi3.png Graphic file (type png)
+<use pi3.png>
+Package pdftex.def Info: pi3.png  used on input line 113.
+(pdftex.def)             Requested size: 310.70726pt x 109.14465pt.
 
-Overfull \hbox (39.84639pt too wide) in paragraph at lines 103--104
-[][]\T2A/cmr/m/n/10 Сила Лоренца, действующая со стороны перпендикулярного
+Overfull \hbox (10.6399pt too wide) in paragraph at lines 132--134
+\T2A/cmr/m/n/10 параллельна входной грани призмы (длинному катету). При этом в обыкновенной волне вектор $[]$ перпендикулярен
+ []
+
+<pi4.png, id=23, 433.62pt x 201.75375pt>
+File: pi4.png Graphic file (type png)
+<use pi4.png>
+Package pdftex.def Info: pi4.png  used on input line 137.
+(pdftex.def)             Requested size: 310.70726pt x 144.573pt.
+<pi5.png, id=24, 234.8775pt x 233.37187pt>
+File: pi5.png Graphic file (type png)
+<use pi5.png>
+Package pdftex.def Info: pi5.png  used on input line 146.
+(pdftex.def)             Requested size: 155.35362pt x 154.35707pt.
+
+Underfull \hbox (badness 6961) in paragraph at lines 173--174
+[]\T2A/cmr/m/n/10 Для обыкновенной волны $\OML/cmm/m/it/10 n$ \T2A/cmr/m/n/10 не будет зависеть от угла $\OML/cmm/m/it/10 ^^R$\T2A/cmr/m/n/10 , а
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 103--104
-\T2A/cmr/m/n/10 заряда к краям образца, что создајт холловское
+Underfull \hbox (badness 2158) in paragraph at lines 173--174
+\T2A/cmr/m/n/10 для необыкновенной волны зависимость $\OML/cmm/m/it/10 n$ \T2A/cmr/m/n/10 от $\OML/cmm/m/it/10 ^^R$ \T2A/cmr/m/n/10 должна описываться
  []
 
 
-Overfull \hbox (21.42131pt too wide) in paragraph at lines 103--104
-\T2A/cmr/m/n/10 электрическое поле, компенсирующее эту силу. Поперечное
+Underfull \hbox (badness 1762) in paragraph at lines 175--176
+[]\T2A/cmr/m/n/10 Показатель преломления призмы из изотропного материала удобно
  []
 
 
-Underfull \hbox (badness 2717) in paragraph at lines 103--104
-\T2A/cmr/bx/n/10 напряжение\T2A/cmr/m/n/10 ) равно $\OML/cmm/m/it/10 U[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 E[]a$\T2A/cmr/m/n/10 , где, согласно
+Underfull \hbox (badness 3009) in paragraph at lines 175--176
+\T2A/cmr/m/n/10 находить по углу наименьшего отклонения луча от первоначального
  []
 
-
-Overfull \hbox (6.34648pt too wide) in paragraph at lines 133--134
-[]\T2A/cmr/m/n/10 Интересно отметить, что несмотря на то, что тензор проводимости явно зависит от $\OML/cmm/m/it/10 B$\T2A/cmr/m/n/10 , продольное сопротивление
- []
-
-<p3.png, id=20, 558.58687pt x 368.87813pt>
-File: p3.png Graphic file (type png)
-<use p3.png>
-Package pdftex.def Info: p3.png  used on input line 139.
-(pdftex.def)             Requested size: 310.70726pt x 205.19131pt.
-
-Overfull \hbox (0.1352pt too wide) in paragraph at lines 144--145
-\T2A/cmr/m/n/10 помощью регуляторов источника питания электромагнита. Ток питания электромагнита измеряется амперметром
- []
+[2 <./pi3.png> <./pi4.png> <./pi5.png>]
+<pi6.png, id=32, 478.03593pt x 235.63031pt>
+File: pi6.png Graphic file (type png)
+<use pi6.png>
+Package pdftex.def Info: pi6.png  used on input line 186.
+(pdftex.def)             Requested size: 310.70726pt x 153.15068pt.
 
 
-Overfull \hbox (10.11679pt too wide) in paragraph at lines 146--148
-[]\T2A/cmr/m/n/10 В образце с током, помещјнном в зазор электромагнита, между контактами 3 и 4 возникает разность потенциалов
- []
-
-[2 <./p2.png> <./p3.png>]
-<p4.jpg, id=28, 1284.8pt x 595.22375pt>
-File: p4.jpg Graphic file (type jpg)
-<use p4.jpg>
-Package pdftex.def Info: p4.jpg  used on input line 264.
-(pdftex.def)             Requested size: 207.1329pt x 95.95525pt.
- [3 <./p4.jpg>]
-<f1.png, id=32, 578.16pt x 361.35pt>
-File: f1.png Graphic file (type png)
-<use f1.png>
-Package pdftex.def Info: f1.png  used on input line 283.
-(pdftex.def)             Requested size: 310.70726pt x 194.18875pt.
-<f2.png, id=33, 867.24pt x 578.16pt>
-File: f2.png Graphic file (type png)
-<use f2.png>
-Package pdftex.def Info: f2.png  used on input line 292.
-(pdftex.def)             Requested size: 310.70726pt x 207.14055pt.
-<f3.png, id=34, 722.7pt x 433.62pt>
-File: f3.png Graphic file (type png)
-<use f3.png>
-Package pdftex.def Info: f3.png  used on input line 315.
-(pdftex.def)             Requested size: 310.70726pt x 186.4265pt.
+LaTeX Warning: Command \cyrm invalid in math mode on input line 192.
 
 
-LaTeX Warning: Command \CYRH invalid in math mode on input line 316.
+LaTeX Warning: Command \cyrk invalid in math mode on input line 192.
 
 
-LaTeX Warning: Command \cyro invalid in math mode on input line 316.
-
-
-LaTeX Warning: Command \cyrl invalid in math mode on input line 316.
-
-
-LaTeX Warning: Command \cyrl invalid in math mode on input line 316.
-
-
-LaTeX Warning: Command \cyra invalid in math mode on input line 316.
-
-Missing character: There is no Х in font cmr5!
-Missing character: There is no о in font cmr5!
-Missing character: There is no л in font cmr5!
-Missing character: There is no л in font cmr5!
-Missing character: There is no а in font cmr5!
-
-LaTeX Warning: Command \CYRH invalid in math mode on input line 316.
-
-
-LaTeX Warning: Command \cyro invalid in math mode on input line 316.
-
-
-LaTeX Warning: Command \cyrl invalid in math mode on input line 316.
-
-
-LaTeX Warning: Command \cyrl invalid in math mode on input line 316.
-
-
-LaTeX Warning: Command \cyra invalid in math mode on input line 316.
-
-Missing character: There is no Х in font cmr5!
-Missing character: There is no о in font cmr5!
-Missing character: There is no л in font cmr5!
-Missing character: There is no л in font cmr5!
-Missing character: There is no а in font cmr5!
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[4 <./f1.png> <./f2.png>]
-
-LaTeX Warning: Command \cyrm invalid in math mode on input line 345.
-
-
-LaTeX Warning: Command \cyrs invalid in math mode on input line 345.
+LaTeX Warning: Command \cyrm invalid in math mode on input line 192.
 
 Missing character: There is no м in font cmr10!
-Missing character: There is no с in font cmr10!
-[5 <./f3.png>] (lab.aux)
+Missing character: There is no к in font cmr10!
+Missing character: There is no м in font cmr10!
+
+Overfull \hbox (11.262pt too wide) in paragraph at lines 192--193
+[][]\T2A/cmr/bx/n/10 Экспериментальная установка. \T2A/cmr/m/n/10 Схема
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 192--193
+\T2A/cmr/m/n/10 Ne--Ne-лазер ($\OML/cmm/m/it/10 ^^U \OT1/cmr/m/n/10 = 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 63 []$\T2A/cmr/m/n/10 ). Излучение
+ []
+
+
+Underfull \hbox (badness 5331) in paragraph at lines 192--193
+\T2A/cmr/m/n/10 лазера поляризовано линейно за счјт
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 192--193
+\T2A/cmr/m/n/10 наличия бристовских окошек в кювете
+ []
+
+
+Overfull \hbox (17.86089pt too wide) in paragraph at lines 192--193
+\T2A/cmr/m/n/10 установленного на выходе лазера. Исследуемая
+ []
+
+
+Overfull \hbox (17.75905pt too wide) in paragraph at lines 194--195
+\T2A/cmr/m/n/10 рассчитать, если известны угловые координаты
+ []
+
+
+Underfull \hbox (badness 4429) in paragraph at lines 194--195
+\T2A/cmr/m/n/10 нормалей $\OML/cmm/m/it/10 N[]$ \T2A/cmr/m/n/10 и $\OML/cmm/m/it/10 N[]$ \T2A/cmr/m/n/10 к преломляющим
+ []
+
+
+Overfull \hbox (17.80534pt too wide) in paragraph at lines 194--195
+\T2A/cmr/m/n/10 преломляющему углу. Грань, противолежащая
+ []
+
+[3 <./pi6.png>]
+Overfull \hbox (4.5195pt too wide) in paragraph at lines 316--316
+[]\T2A/cmr/bx/n/12 Определение углов падения, соответствующие полному внутреннему отражению 
+ []
+
+
+Overfull \hbox (44.72992pt too wide) in paragraph at lines 318--319
+\T2A/cmr/m/n/10 исчезновенния луча. Так, $[]$ этот угол составляет $\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 '[] \OT1/cmr/m/n/10 = 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0 \OMS/cmsy/m/n/10 ^^F \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5$\T2A/cmr/m/n/10 , а $[]$
+ []
+
+[4]
+<pi8.png, id=41, 414.04688pt x 311.66437pt>
+File: pi8.png Graphic file (type png)
+<use pi8.png>
+Package pdftex.def Info: pi8.png  used on input line 328.
+(pdftex.def)             Requested size: 207.1329pt x 155.91739pt.
+<pi7.png, id=42, 414.79968pt x 304.88907pt>
+File: pi7.png Graphic file (type png)
+<use pi7.png>
+Package pdftex.def Info: pi7.png  used on input line 337.
+(pdftex.def)             Requested size: 207.1329pt x 152.24876pt.
+<pi9.png, id=43, 553.31718pt x 404.26031pt>
+File: pi9.png Graphic file (type png)
+<use pi9.png>
+Package pdftex.def Info: pi9.png  used on input line 351.
+(pdftex.def)             Requested size: 207.1329pt x 151.33199pt.
+ [5 <./pi8.png> <./pi7.png> <./pi9.png>]
+Overfull \hbox (34.70898pt too wide) in paragraph at lines 361--364
+\T2A/cmr/m/n/10 кристалле. Также определили преломляющий угол призмы A и показатель преломления обыкновенной и необыкновенной
+ []
+
+<pi10.jpg, id=50, 1284.8pt x 938.50626pt>
+File: pi10.jpg Graphic file (type jpg)
+<use pi10.jpg>
+Package pdftex.def Info: pi10.jpg  used on input line 369.
+(pdftex.def)             Requested size: 362.48654pt x 264.78482pt.
+
+Package caption Warning: Unused \captionsetup[table] on input line 19.
+See the caption package documentation for explanation.
+
+[6 <./pi10.jpg>] (lab 4.7.1.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -725,17 +777,17 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7240 strings out of 467866
- 110200 string characters out of 5435154
- 551636 words of memory out of 5000000
- 36031 multiletter control sequences out of 15000+600000
- 642886 words of font info for 81 fonts, out of 8000000 for 9000
+ 7716 strings out of 467866
+ 117999 string characters out of 5435154
+ 561003 words of memory out of 5000000
+ 36494 multiletter control sequences out of 15000+600000
+ 645406 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,12n,77p,632b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0700.pk> <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1000.pk> <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1728.pk><D:/Miktex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on lab.pdf (5 pages, 465455 bytes).
+ 73i,9n,77p,901b,354s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1000.pk> <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1000.pk> <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1728.pk><D:/Miktex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on "lab 4.7.1.pdf" (6 pages, 432911 bytes).
 PDF statistics:
- 320 PDF objects out of 1000 (max. 8388607)
+ 359 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
