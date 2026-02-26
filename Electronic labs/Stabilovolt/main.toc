@@ -1,0 +1,6 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{Цель работы}{3}{}%
+\contentsline {section}{Схема установки}{3}{}%
+\contentsline {section}{ВАХ газоразрядного диода}{3}{}%
+\contentsline {section}{Ход работы}{4}{}%
+\contentsline {section}{Заключение}{8}{}%
