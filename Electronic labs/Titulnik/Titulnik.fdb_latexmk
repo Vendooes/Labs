@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1773396090.68434 "d:/Labs/Electronic labs/Titulnik/Titulnik.tex" "Titulnik.pdf" "Titulnik" 1773396096.33492 0
-  "C:/Users/vendo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1772133833 82507 a9eef8696c92627b87e9975edea03b2a ""
+["pdflatex"] 1774217884.66878 "d:/Labs/Electronic labs/Titulnik/Titulnik.tex" "Titulnik.pdf" "Titulnik" 1774217888.11832 0
+  "C:/Users/vendo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1774210665 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/vendo/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1095.pk" 1769884699 24596 9011cb84cae9934220c86036003cd5d7 ""
   "C:/Users/vendo/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1200.pk" 1769884700 27028 a0a3ea7c95269841e2fe951984b72531 ""
   "C:/Users/vendo/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1440.pk" 1772128489 32600 6b4e9526a67a8fa4b072f63ab9e324ad ""
@@ -129,10 +129,10 @@
   "D:/Miktex/tex/latex/was/icomma.sty" 1665850770 1018 df058db1896806f044e2233bb506d425 ""
   "D:/Miktex/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "D:/Miktex/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "Titulnik.aux" 1773396095 300 efdb92450188c1e99e996aea32280713 "pdflatex"
-  "Titulnik.out" 1773396094 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Titulnik.tex" 1773396084 7442 7a835ff1a22a1702c45a61505b3345b3 ""
-  "d:/Labs/Electronic labs/Titulnik/Titulnik.tex" 1773396084 7442 7a835ff1a22a1702c45a61505b3345b3 ""
+  "Titulnik.aux" 1774217887 300 efdb92450188c1e99e996aea32280713 "pdflatex"
+  "Titulnik.out" 1774217886 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Titulnik.tex" 1774217884 7670 40466d43d0f3c352c22716e7bdb9a028 ""
+  "d:/Labs/Electronic labs/Titulnik/Titulnik.tex" 1774217884 7670 40466d43d0f3c352c22716e7bdb9a028 ""
   (generated)
   "Titulnik.aux"
   "Titulnik.log"
