@@ -1,0 +1,25 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Введение: Физические основы и особенности диода Шоттки}{2}{}%
+\contentsline {section}{\numberline {2}Цель работы}{3}{}%
+\contentsline {section}{\numberline {3}Оборудование}{3}{}%
+\contentsline {section}{\numberline {4}Теоретическая часть}{3}{}%
+\contentsline {subsection}{\numberline {4.1}Энергетические диаграммы металла и полупроводника}{4}{}%
+\contentsline {subsection}{\numberline {4.2}Потенциальный барьер на границе металл-полупроводник}{5}{}%
+\contentsline {subsection}{\numberline {4.3}Вольт-амперная характеристика выпрямляющего контакта}{6}{}%
+\contentsline {subsection}{\numberline {4.4}Омический контакт}{7}{}%
+\contentsline {subsection}{\numberline {4.5}Сравнение теории с опытом}{8}{}%
+\contentsline {subsection}{\numberline {4.6}Роль поверхностных электронных состояний}{9}{}%
+\contentsline {subsection}{\numberline {4.7}Промежуточный слой окисла}{9}{}%
+\contentsline {subsection}{\numberline {4.8}Технология изготовления диода Шоттки}{9}{}%
+\contentsline {subsection}{\numberline {4.9}Основные формулы для расчетов}{10}{}%
+\contentsline {subsubsection}{\numberline {4.9.1}Ток насыщения}{10}{}%
+\contentsline {subsubsection}{\numberline {4.9.2}Вольт-амперная характеристика}{10}{}%
+\contentsline {subsubsection}{\numberline {4.9.3}Коэффициент идеальности}{10}{}%
+\contentsline {subsubsection}{\numberline {4.9.4}Высота барьера Шоттки}{10}{}%
+\contentsline {subsubsection}{\numberline {4.9.5}Контактная разность потенциалов}{10}{}%
+\contentsline {subsubsection}{\numberline {4.9.6}Емкость перехода}{11}{}%
+\contentsline {subsection}{\numberline {4.10}Итог}{11}{}%
+\contentsline {section}{\numberline {5}Ход работы}{12}{}%
+\contentsline {subsection}{\numberline {5.1}Измерение параметров омического контакта Al на Si}{12}{}%
+\contentsline {subsection}{\numberline {5.2}Измерение параметров контакта Шоттки Al на Si}{16}{}%
+\contentsline {subsection}{\numberline {5.3}Выводы и полученные результаты}{22}{}%
