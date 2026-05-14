@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.31)  9 APR 2026 20:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.31)  24 APR 2026 12:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -501,7 +501,19 @@ File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count324
 ) (Diod Shottki.aux
 
-LaTeX Warning: Label `fig:placeholder' multiply defined.
+LaTeX Warning: Label `fig:barrier_formation' multiply defined.
+
+
+LaTeX Warning: Label `fig:barrier_formation' multiply defined.
+
+
+LaTeX Warning: Label `fig:barrier_formation' multiply defined.
+
+
+LaTeX Warning: Label `fig:barrier_formation' multiply defined.
+
+
+LaTeX Warning: Label `fig:barrier_formation' multiply defined.
 
 
 LaTeX Warning: Label `fig:placeholder' multiply defined.
@@ -528,7 +540,10 @@ LaTeX Warning: Label `fig:placeholder' multiply defined.
 LaTeX Warning: Label `fig:placeholder' multiply defined.
 
 
-LaTeX Warning: Label `fig:placeholder' multiply defined.
+LaTeX Warning: Label `fig:barrier_formation' multiply defined.
+
+
+LaTeX Warning: Label `fig:barrier_formation' multiply defined.
 
 
 LaTeX Warning: Label `fig:placeholder' multiply defined.
@@ -763,279 +778,295 @@ Overfull \hbox (29.26122pt too wide) in paragraph at lines 130--131
 []\T2A/cmr/m/n/12 При обеспечении электрического контакта электроны из зоны проводимости полупроводника
  []
 
-<image2.png, id=29, 540.51938pt x 353.82187pt>
-File: image2.png Graphic file (type png)
-<use image2.png>
-Package pdftex.def Info: image2.png  used on input line 146.
-(pdftex.def)             Requested size: 435.32422pt x 284.96907pt.
+<pp1.png, id=29, 528.47438pt x 170.13562pt>
+File: pp1.png Graphic file (type png)
+<use pp1.png>
+Package pdftex.def Info: pp1.png  used on input line 140.
+(pdftex.def)             Requested size: 435.32422pt x 140.14813pt.
+<pp2.png, id=30, 550.30594pt x 220.57407pt>
+File: pp2.png Graphic file (type png)
+<use pp2.png>
+Package pdftex.def Info: pp2.png  used on input line 146.
+(pdftex.def)             Requested size: 435.32422pt x 174.49391pt.
+<pp3.png, id=31, 472.76625pt x 178.41656pt>
+File: pp3.png Graphic file (type png)
+<use pp3.png>
+Package pdftex.def Info: pp3.png  used on input line 152.
+(pdftex.def)             Requested size: 435.32422pt x 164.28949pt.
 
-Underfull \hbox (badness 4060) in paragraph at lines 147--147
-[]\T2A/cmr/m/n/12 Рис. 2 |Образование барьера в диоде Шоттки: (а) энергетические диаграммы
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5 <./image2.png>]
-Overfull \hbox (22.57191pt too wide) in paragraph at lines 157--158
+<pp5.png, id=32, 363.60844pt x 166.37157pt>
+File: pp5.png Graphic file (type png)
+<use pp5.png>
+Package pdftex.def Info: pp5.png  used on input line 158.
+(pdftex.def)             Requested size: 435.32422pt x 199.19298pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5 <./pp1.png> <./pp2.png>]
+Overfull \hbox (22.57191pt too wide) in paragraph at lines 168--169
 []\T2A/cmr/m/n/12 Узкий барьер не препятствует обмену электронами за счет эффекта квантовомеханического
  []
 
 
-Overfull \hbox (2.9872pt too wide) in paragraph at lines 161--162
+Overfull \hbox (2.9872pt too wide) in paragraph at lines 172--173
 \T2A/cmr/m/n/12 Барьер Шоттки затрудняет обмен носителями заряда между металлом и полупроводником.
  []
 
-<image3.png, id=36, 708.39656pt x 223.58531pt>
-File: image3.png Graphic file (type png)
-<use image3.png>
-Package pdftex.def Info: image3.png  used on input line 185.
-(pdftex.def)             Requested size: 435.32422pt x 137.40009pt.
+[6 <./pp3.png> <./pp5.png>]
+<pp6.png, id=45, 567.62062pt x 175.40532pt>
+File: pp6.png Graphic file (type png)
+<use pp6.png>
+Package pdftex.def Info: pp6.png  used on input line 196.
+(pdftex.def)             Requested size: 435.32422pt x 134.5272pt.
 
-Underfull \hbox (badness 4048) in paragraph at lines 186--186
-[]\T2A/cmr/m/n/12 Рис. 3 |Энергетическая диаграмма контакта металл-полупроводник при внешнем
+Underfull \hbox (badness 4048) in paragraph at lines 197--197
+[]\T2A/cmr/m/n/12 Рис. 2 |Энергетическая диаграмма контакта металл-полупроводник при внешнем
  []
 
-<p1.png, id=37, 148.30406pt x 118.94438pt>
+<p1.png, id=46, 148.30406pt x 118.94438pt>
 File: p1.png Graphic file (type png)
 <use p1.png>
-Package pdftex.def Info: p1.png  used on input line 205.
+Package pdftex.def Info: p1.png  used on input line 216.
 (pdftex.def)             Requested size: 338.58632pt x 271.59708pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (11.75539pt too wide) in paragraph at lines 212--213
+Overfull \hbox (11.75539pt too wide) in paragraph at lines 223--224
 \T2A/cmr/m/n/12 Рассмотрим контакт между металлом и полупроводником с $\OML/cmm/m/it/12 '[] < '[]$ \T2A/cmr/m/n/12 (рис. 5). Электрическое
  []
 
-[6 <./image3.png>]
-<p2.png, id=43, 178.41656pt x 91.09032pt>
+[7 <./pp6.png> <./p1.png>]
+<p2.png, id=54, 178.41656pt x 91.09032pt>
 File: p2.png Graphic file (type png)
 <use p2.png>
-Package pdftex.def Info: p2.png  used on input line 222.
+Package pdftex.def Info: p2.png  used on input line 233.
 (pdftex.def)             Requested size: 338.58632pt x 172.8732pt.
 
-Overfull \hbox (0.5481pt too wide) in paragraph at lines 227--228
+Overfull \hbox (0.5481pt too wide) in paragraph at lines 238--239
 []\T2A/cmr/m/n/12 Вольт-амперная характеристика такой структуры описывается законом Ома и является
  []
 
 
-Overfull \hbox (28.26889pt too wide) in paragraph at lines 229--230
+Overfull \hbox (28.26889pt too wide) in paragraph at lines 240--241
 []\T2A/cmr/m/n/12 Сопротивление растекания $\OML/cmm/m/it/12 R[]$ \T2A/cmr/m/n/12 круглого металлического контакта радиуса $\OML/cmm/m/it/12 r$\T2A/cmr/m/n/12 , расположенного
  []
 
-[7 <./p1.png> <./p2.png>]
-Overfull \hbox (69.06686pt too wide) in paragraph at lines 239--240
+
+Overfull \hbox (69.06686pt too wide) in paragraph at lines 250--251
 \T2A/cmr/m/n/12 Для сравнения с теорией строят прямую ветвь вольт-амперной характеристики в полулогарифмическом
  []
 
-<p3.png, id=50, 128.73094pt x 107.65219pt>
+<p3.png, id=55, 128.73094pt x 107.65219pt>
 File: p3.png Graphic file (type png)
 <use p3.png>
-Package pdftex.def Info: p3.png  used on input line 249.
+Package pdftex.def Info: p3.png  used on input line 260.
 (pdftex.def)             Requested size: 338.58632pt x 283.17105pt.
-
-Overfull \hbox (14.98135pt too wide) in paragraph at lines 270--271
-[]\T2A/cmr/m/n/12 Линейно экстраполируя характеристику к нулевому напряжению, находят $\OML/cmm/m/it/12 I[]$ \T2A/cmr/m/n/12 и вычисляют
- []
-
-
-Overfull \hbox (29.90968pt too wide) in paragraph at lines 278--279
-\T2A/cmr/m/n/12 Поверхностные электронные состояния возникают на поверхности полупроводника в результате: 
- []
-
-[8 <./p3.png>]
-<image7.png, id=55, 558.58687pt x 269.50688pt>
-File: image7.png Graphic file (type png)
-<use image7.png>
-Package pdftex.def Info: image7.png  used on input line 293.
-(pdftex.def)             Requested size: 435.32422pt x 210.0418pt.
-
-Overfull \hbox (27.79434pt too wide) in paragraph at lines 306--307
-[]\T2A/cmr/m/n/12 При толщине более $\OT1/cmr/m/n/12 100$ []\T2A/cmr/m/n/12 A --- обмен носителями происходит только через зону проводимости
- []
-
-<p4.png, id=56, 179.16937pt x 215.30438pt>
-File: p4.png Graphic file (type png)
-<use p4.png>
-Package pdftex.def Info: p4.png  used on input line 317.
-(pdftex.def)             Requested size: 241.84843pt x 290.64508pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<p5.png, id=57, 204.01219pt x 190.46156pt>
+
+Overfull \hbox (14.98135pt too wide) in paragraph at lines 281--282
+[]\T2A/cmr/m/n/12 Линейно экстраполируя характеристику к нулевому напряжению, находят $\OML/cmm/m/it/12 I[]$ \T2A/cmr/m/n/12 и вычисляют
+ []
+
+[8 <./p2.png>]
+Overfull \hbox (29.90968pt too wide) in paragraph at lines 289--290
+\T2A/cmr/m/n/12 Поверхностные электронные состояния возникают на поверхности полупроводника в результате: 
+ []
+
+<image7.png, id=60, 558.58687pt x 269.50688pt>
+File: image7.png Graphic file (type png)
+<use image7.png>
+Package pdftex.def Info: image7.png  used on input line 304.
+(pdftex.def)             Requested size: 435.32422pt x 210.0418pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9 <./p3.png>]
+Overfull \hbox (27.79434pt too wide) in paragraph at lines 317--318
+[]\T2A/cmr/m/n/12 При толщине более $\OT1/cmr/m/n/12 100$ []\T2A/cmr/m/n/12 A --- обмен носителями происходит только через зону проводимости
+ []
+
+<p4.png, id=65, 179.16937pt x 215.30438pt>
+File: p4.png Graphic file (type png)
+<use p4.png>
+Package pdftex.def Info: p4.png  used on input line 328.
+(pdftex.def)             Requested size: 241.84843pt x 290.64508pt.
+<p5.png, id=66, 204.01219pt x 190.46156pt>
 File: p5.png Graphic file (type png)
 <use p5.png>
-Package pdftex.def Info: p5.png  used on input line 333.
+Package pdftex.def Info: p5.png  used on input line 344.
 (pdftex.def)             Requested size: 386.95897pt x 361.2762pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[9 <./image7.png>] [10 <./p4.png>]
-Overfull \hbox (18.38014pt too wide) in paragraph at lines 384--385
+[10 <./image7.png> <./p4.png>]
+<pp7.jpg, id=72, 1284.8pt x 290.08376pt>
+File: pp7.jpg Graphic file (type jpg)
+<use pp7.jpg>
+Package pdftex.def Info: pp7.jpg  used on input line 357.
+(pdftex.def)             Requested size: 435.32422pt x 98.28633pt.
+<pp8.jpg, id=73, 1115.16624pt x 278.03876pt>
+File: pp8.jpg Graphic file (type jpg)
+<use pp8.jpg>
+Package pdftex.def Info: pp8.jpg  used on input line 363.
+(pdftex.def)             Requested size: 435.32422pt x 108.53648pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (18.38014pt too wide) in paragraph at lines 370--371
 \T2A/cmr/m/n/12 новое сопротивление. Из полученных данных найдем погонную плотность рамки и внутреннее
  []
 
-[11 <./p5.png>]
-<image8.png, id=70, 1284.8pt x 579.16376pt>
+[11 <./p5.png> <./pp7.jpg>]
+<image8.png, id=78, 1284.8pt x 579.16376pt>
 File: image8.png Graphic file (type png)
 <use image8.png>
-Package pdftex.def Info: image8.png  used on input line 395.
+Package pdftex.def Info: image8.png  used on input line 381.
 (pdftex.def)             Requested size: 241.84843pt x 109.01712pt.
-<d14.jpg, id=71, 933.4875pt x 661.47125pt>
+<d14.jpg, id=79, 933.4875pt x 661.47125pt>
 File: d14.jpg Graphic file (type jpg)
 <use d14.jpg>
-Package pdftex.def Info: d14.jpg  used on input line 402.
+Package pdftex.def Info: d14.jpg  used on input line 388.
 (pdftex.def)             Requested size: 362.77264pt x 257.06436pt.
-<d15.jpg, id=72, 904.37875pt x 667.49374pt>
+ [12 <./pp8.jpg> <./image8.png (PNG copy)>]
+<d15.jpg, id=84, 904.37875pt x 667.49374pt>
 File: d15.jpg Graphic file (type jpg)
 <use d15.jpg>
-Package pdftex.def Info: d15.jpg  used on input line 409.
+Package pdftex.def Info: d15.jpg  used on input line 395.
 (pdftex.def)             Requested size: 362.77264pt x 267.74648pt.
- [12 <./image8.png (PNG copy)> <./d14.jpg>]
-Overfull \hbox (13.27208pt too wide) in paragraph at lines 420--421
+
+Overfull \hbox (13.27208pt too wide) in paragraph at lines 406--407
 []\T2A/cmr/m/n/12 Полное сопротивление электрической схемы складывается из внутреннего сопротивления,
  []
 
-<image9.png, id=77, 1156.32pt x 399.4925pt>
+[13 <./d14.jpg> <./d15.jpg>]
+<image9.png, id=89, 1156.32pt x 399.4925pt>
 File: image9.png Graphic file (type png)
 <use image9.png>
-Package pdftex.def Info: image9.png  used on input line 438.
+Package pdftex.def Info: image9.png  used on input line 424.
 (pdftex.def)             Requested size: 362.77264pt x 125.32875pt.
-[13 <./d15.jpg>]
-<d17.jpg, id=82, 903.375pt x 665.48625pt>
+<d17.jpg, id=90, 903.375pt x 665.48625pt>
 File: d17.jpg Graphic file (type jpg)
 <use d17.jpg>
-Package pdftex.def Info: d17.jpg  used on input line 445.
+Package pdftex.def Info: d17.jpg  used on input line 431.
 (pdftex.def)             Requested size: 362.77264pt x 267.24585pt.
 
-Overfull \hbox (16.02971pt too wide) in paragraph at lines 451--452
+Overfull \hbox (16.02971pt too wide) in paragraph at lines 437--438
 \T2A/cmr/m/n/12 Измерим ВАХ такой структуры в двух случаях: зонды располагаются на соседних площадках
  []
 
 
-Overfull \hbox (18.71065pt too wide) in paragraph at lines 451--452
+Overfull \hbox (18.71065pt too wide) in paragraph at lines 437--438
 \T2A/cmr/m/n/12 будет найдено сопротивление контакта. Общее сопротивление складывается из сопротивления
  []
 
 [14 <./image9.png (PNG copy)> <./d17.jpg>]
-Overfull \hbox (4.12039pt too wide) in paragraph at lines 473--474
+Overfull \hbox (4.12039pt too wide) in paragraph at lines 459--460
 []\T2A/cmr/m/n/12 Найдем удельное сопротивление, нормированное на площадь. По порядку оно совпадает
  []
 
-<image10.png, id=86, 676.77844pt x 224.33812pt>
+<image10.png, id=94, 676.77844pt x 224.33812pt>
 File: image10.png Graphic file (type png)
 <use image10.png>
-Package pdftex.def Info: image10.png  used on input line 480.
+Package pdftex.def Info: image10.png  used on input line 466.
 (pdftex.def)             Requested size: 314.40001pt x 104.22029pt.
-<d18.jpg, id=87, 921.4425pt x 660.4675pt>
+<d18.jpg, id=95, 921.4425pt x 660.4675pt>
 File: d18.jpg Graphic file (type jpg)
 <use d18.jpg>
-Package pdftex.def Info: d18.jpg  used on input line 487.
+Package pdftex.def Info: d18.jpg  used on input line 473.
 (pdftex.def)             Requested size: 362.77264pt x 260.02014pt.
-<d19.jpg, id=88, 918.43124pt x 661.47125pt>
+[15 <./image10.png>]
+<d19.jpg, id=100, 918.43124pt x 661.47125pt>
 File: d19.jpg Graphic file (type jpg)
 <use d19.jpg>
-Package pdftex.def Info: d19.jpg  used on input line 494.
+Package pdftex.def Info: d19.jpg  used on input line 480.
 (pdftex.def)             Requested size: 362.77264pt x 261.27322pt.
-[15 <./image10.png> <./d18.jpg>]
-Overfull \hbox (2.76079pt too wide) in paragraph at lines 502--503
+
+Overfull \hbox (2.76079pt too wide) in paragraph at lines 488--489
 \T2A/cmr/m/n/12 Установим один зонд на алюминиевую рамку, другой на контактную площадку невплавлен-
  []
 
-<F1.png, id=93, 722.7pt x 433.62pt>
+<F1.png, id=101, 722.7pt x 433.62pt>
 File: F1.png Graphic file (type png)
 <use F1.png>
-Package pdftex.def Info: F1.png  used on input line 507.
+Package pdftex.def Info: F1.png  used on input line 493.
 (pdftex.def)             Requested size: 411.14528pt x 246.68958pt.
-[16 <./d19.jpg> <./F1.png>]
-<F2.png, id=98, 722.7pt x 433.62pt>
-File: F2.png Graphic file (type png)
-<use F2.png>
-Package pdftex.def Info: F2.png  used on input line 516.
-(pdftex.def)             Requested size: 411.14528pt x 246.68958pt.
-
-Overfull \hbox (23.87714pt too wide) in paragraph at lines 534--534
-[]\T2A/cmr/m/n/12 Определим высоту энергетического барьера контакта Шоттки и коэффициента идеальности
- []
-
-
-Overfull \hbox (11.51978pt too wide) in paragraph at lines 538--539
-[]\T2A/cmr/m/n/12 Высота барьера при влюченном свете: $\OML/cmm/m/it/12 ^^^[] \OT1/cmr/m/n/12 = [] []  [] = []\OML/cmm/m/it/12 ln\OT1/cmr/m/n/12 ([]) =
- []
+[16 <./d18.jpg> <./d19.jpg>]
+<p9.jpg, id=105, 863.47594pt x 581.92406pt>
+File: p9.jpg Graphic file (type jpg)
+<use p9.jpg>
+Package pdftex.def Info: p9.jpg  used on input line 506.
+(pdftex.def)             Requested size: 435.32422pt x 293.37651pt.
+<pp10.jpg, id=106, 349.305pt x 124.465pt>
+File: pp10.jpg Graphic file (type jpg)
+<use pp10.jpg>
+Package pdftex.def Info: pp10.jpg  used on input line 515.
+(pdftex.def)             Requested size: 435.32422pt x 155.12505pt.
 
 
-Overfull \hbox (26.53pt too wide) in paragraph at lines 539--540
-[]\T2A/cmr/m/n/12 Высота барьера при выключенном свете: $\OML/cmm/m/it/12 ^^^[] \OT1/cmr/m/n/12 = [] []  [] = []\OML/cmm/m/it/12 ln\OT1/cmr/m/n/12 ([]) =
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-<ppp.jpg, id=99, 1039.885pt x 699.61375pt>
-File: ppp.jpg Graphic file (type jpg)
-<use ppp.jpg>
-Package pdftex.def Info: ppp.jpg  used on input line 587.
-(pdftex.def)             Requested size: 411.14528pt x 276.60594pt.
-<pp.jpg, id=100, 1055.945pt x 706.64pt>
-File: pp.jpg Graphic file (type jpg)
-<use pp.jpg>
-Package pdftex.def Info: pp.jpg  used on input line 601.
-(pdftex.def)             Requested size: 411.14528pt x 275.13562pt.
-[17 <./F2.png>]
-<F6.png, id=105, 722.7pt x 505.89pt>
+<F6.png, id=107, 722.7pt x 505.89pt>
 File: F6.png Graphic file (type png)
 <use F6.png>
-Package pdftex.def Info: F6.png  used on input line 621.
-(pdftex.def)             Requested size: 411.14528pt x 287.8045pt.
- [18 <./ppp.jpg> <./pp.jpg>]
-<F7.png, id=109, 729.47531pt x 319.1925pt>
-File: F7.png Graphic file (type png)
-<use F7.png>
-Package pdftex.def Info: F7.png  used on input line 635.
-(pdftex.def)             Requested size: 411.14528pt x 179.90088pt.
-
-Overfull \hbox (49.11914pt too wide) detected at line 642
-\OML/cmm/m/it/12 N \OT1/cmr/m/n/12 = []  = [] = 8\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 01 \OMS/cmsy/m/n/12 ^^C \OT1/cmr/m/n/12 10[][][]
- []
-
-
-Overfull \hbox (11.0817pt too wide) in paragraph at lines 645--646
+Package pdftex.def Info: F6.png  used on input line 578.
+(pdftex.def)             Requested size: 338.58632pt x 237.01184pt.
+[17 <./F1.png> <./p9.jpg>]
+<pp12.jpg, id=112, 1284.8pt x 665.48625pt>
+File: pp12.jpg Graphic file (type jpg)
+<use pp12.jpg>
+Package pdftex.def Info: pp12.jpg  used on input line 585.
+(pdftex.def)             Requested size: 338.58632pt x 175.37817pt.
+<pp11.jpg, id=113, 1115.16624pt x 278.03876pt>
+File: pp11.jpg Graphic file (type jpg)
+<use pp11.jpg>
+Package pdftex.def Info: pp11.jpg  used on input line 592.
+(pdftex.def)             Requested size: 338.58632pt x 84.41774pt.
+ [18 <./pp10.jpg> <./F6.png> <./pp12.jpg>]
+<pp13.jpg, id=118, 753.5653pt x 510.40688pt>
+File: pp13.jpg Graphic file (type jpg)
+<use pp13.jpg>
+Package pdftex.def Info: pp13.jpg  used on input line 606.
+(pdftex.def)             Requested size: 338.58632pt x 229.3305pt.
+<pp14.jpg, id=119, 454.69875pt x 187.70125pt>
+File: pp14.jpg Graphic file (type jpg)
+<use pp14.jpg>
+Package pdftex.def Info: pp14.jpg  used on input line 615.
+(pdftex.def)             Requested size: 411.14528pt x 169.72577pt.
+<pp15.jpg, id=120, 749.80125pt x 590.95781pt>
+File: pp15.jpg Graphic file (type jpg)
+<use pp15.jpg>
+Package pdftex.def Info: pp15.jpg  used on input line 624.
+(pdftex.def)             Requested size: 411.14528pt x 324.0449pt.
+ [19 <./pp11.jpg> <./pp13.jpg> <./pp14.jpg>]
+Overfull \hbox (11.0817pt too wide) in paragraph at lines 630--631
 \T2A/cmr/m/n/12 Установим один зонд на невплавленный контакт алюминия, другой на контактную площадку
  []
 
-<image11.png, id=110, 1284.8pt x 759.83875pt>
-File: image11.png Graphic file (type png)
-<use image11.png>
-Package pdftex.def Info: image11.png  used on input line 649.
-(pdftex.def)             Requested size: 241.84843pt x 143.02592pt.
-[19 <./F6.png> <./F7.png>]
-Overfull \hbox (30.45473pt too wide) in paragraph at lines 678--686
-[]\T2A/cmr/m/n/12 концентрацию примеси как $\OML/cmm/m/it/12 N \OT1/cmr/m/n/12 = []  = [] =
- []
-
-<p71.jpg, id=117, 901.3675pt x 547.04375pt>
+<p71.jpg, id=125, 901.3675pt x 547.04375pt>
 File: p71.jpg Graphic file (type jpg)
 <use p71.jpg>
-Package pdftex.def Info: p71.jpg  used on input line 701.
+Package pdftex.def Info: p71.jpg  used on input line 653.
 (pdftex.def)             Requested size: 411.14528pt x 249.53133pt.
-<p72.jpg, id=118, 1041.8925pt x 705.63625pt>
-File: p72.jpg Graphic file (type jpg)
-<use p72.jpg>
-Package pdftex.def Info: p72.jpg  used on input line 708.
-(pdftex.def)             Requested size: 411.14528pt x 278.4487pt.
-[20 <./image11.png (PNG copy)> <./p71.jpg>]
-<p73.jpg, id=123, 1033.8625pt x 659.46375pt>
+<p73.jpg, id=126, 1033.8625pt x 659.46375pt>
 File: p73.jpg Graphic file (type jpg)
 <use p73.jpg>
-Package pdftex.def Info: p73.jpg  used on input line 722.
+Package pdftex.def Info: p73.jpg  used on input line 667.
 (pdftex.def)             Requested size: 411.14528pt x 262.2513pt.
-<p74.jpg, id=124, 1030.85126pt x 661.47125pt>
-File: p74.jpg Graphic file (type jpg)
-<use p74.jpg>
-Package pdftex.def Info: p74.jpg  used on input line 728.
-(pdftex.def)             Requested size: 411.14528pt x 263.81673pt.
- [21 <./p72.jpg> <./p73.jpg>]
-Overfull \hbox (15.97638pt too wide) in paragraph at lines 811--812
-\T2A/cmr/m/n/12 Концентрация примеси сходится по порядку с табличной, также были найдены сопротивление
+[20 <./pp15.jpg> <./p71.jpg>]
+Overfull \hbox (46.79512pt too wide) in paragraph at lines 754--756
+[]\T2A/cmr/bx/n/12 Анализ ВАХ. \T2A/cmr/m/n/12 Экспериментальная зависимость тока от напряжения была аппроксимирована
  []
 
-[22 <./p74.jpg>] (Diod Shottki.aux)
+[21 <./p73.jpg>]
+Overfull \hbox (18.75417pt too wide) in paragraph at lines 788--789
+\T2A/cmr/m/n/12 контактов металл--полупроводник на кремниевых подложках, что подтверждает корректность
+ []
+
+[22] (Diod Shottki.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -1046,17 +1077,17 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11038 strings out of 467866
- 236350 string characters out of 5435154
- 616032 words of memory out of 5000000
- 39811 multiletter control sequences out of 15000+600000
+ 11073 strings out of 467866
+ 236821 string characters out of 5435154
+ 615078 words of memory out of 5000000
+ 39846 multiletter control sequences out of 15000+600000
  637944 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,7n,80p,703b,543s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0800.pk> <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk><D:/Miktex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Miktex/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmsy6.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Diod Shottki.pdf" (22 pages, 1515163 bytes).
+ <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0800.pk> <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\vendo\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk><D:/Miktex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmsy6.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on "Diod Shottki.pdf" (22 pages, 1502036 bytes).
 PDF statistics:
- 461 PDF objects out of 1000 (max. 8388607)
+ 469 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 166 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -137,14 +137,25 @@ U_0 = \frac{\varphi_m - \varphi_n}{e},
 
 \begin{figure}[h]
 \centering
-% Placeholder for Figure 2: Formation of Schottky barrier
-% This figure should show the step-by-step formation of the barrier:
-% (a) Separated metal and n-type semiconductor with their energy levels
-% (b) After electrical contact - Fermi levels aligned, band bending
-% (c) With thin dielectric layer - tunneling transparent
-% (d) Direct metal-semiconductor contact showing Schottky barrier height φb
-\includegraphics[width=0.9\textwidth]{image2.png}
-\caption{Образование барьера в диоде Шоттки: (а) энергетические диаграммы изолированных металла и полупроводника n-типа, (б) электрически замкнутых, (в) с уменьшенной толщиной диэлектрического слоя, (г) без диэлектрической прослойки}
+\includegraphics[width=0.9\textwidth]{pp1.png}
+\label{fig:barrier_formation}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth]{pp2.png}
+\label{fig:barrier_formation}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth]{pp3.png}
+\label{fig:barrier_formation}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth]{pp5.png}
 \label{fig:barrier_formation}
 \end{figure}
 
@@ -182,7 +193,7 @@ $S$ --- площадь контакта, $m$ --- масса электрона, 
 % (a) Zero bias U=0 - symmetric barriers
 % (b) Reverse bias U<0 - increased barrier for semiconductor to metal
 % (c) Forward bias U>0 - decreased barrier for semiconductor to metal
-\includegraphics[width=0.9\textwidth]{image3.png}
+\includegraphics[width=0.9\textwidth]{pp6.png}
 \caption{Энергетическая диаграмма контакта металл-полупроводник при внешнем напряжении: (а) U=0, (б) U<0, (в) U>0}
 \label{fig:bias_diagrams}
 \end{figure}
@@ -341,42 +352,17 @@ R_r = \frac{\rho}{2\pi r} \arctan\left(\frac{2d}{r}\right),
 
 Для обработки экспериментальных данных используются следующие формулы:
 
-\subsubsection{Ток насыщения}
-\begin{equation}
-I_0 = S A_0 T^2 \exp\left(-\frac{e\varphi_b}{kT}\right)
-\end{equation}
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth]{pp7.jpg}
+\label{fig:barrier_formation}
+\end{figure}
 
-\subsubsection{Вольт-амперная характеристика}
-\begin{equation}
-I = I_0 \left[\exp\left(\frac{eU}{\gamma kT}\right) - 1\right]
-\end{equation}
-
-\subsubsection{Коэффициент идеальности}
-\begin{equation}
-\gamma = \frac{e}{kT} \cdot \frac{1}{\frac{d(\ln I)}{dU}}
-\end{equation}
-
-\subsubsection{Высота барьера Шоттки}
-\begin{equation}
-\varphi_b = \frac{kT}{e} \ln\left(\frac{S A_0 T^2}{I_0}\right)
-\end{equation}
-
-\subsubsection{Контактная разность потенциалов}
-\begin{equation}
-U_0 = \frac{\varphi_m - \varphi_s}{e}
-\end{equation}
-
-\subsubsection{Емкость перехода}
-Для диода Шоттки емкость обедненного слоя определяется как:
-\begin{equation}
-C = S \sqrt{\frac{e \varepsilon \varepsilon_0 N_d}{2(U_0 - U)}}
-\end{equation}
-
-где $N_d$ --- концентрация доноров, $\varepsilon$ --- диэлектрическая проницаемость полупроводника.
-
-\subsection{Итог}
-
-Диоды Шоттки обладают рядом преимуществ перед обычными p-n переходами: меньшим прямым падением напряжения, высоким быстродействием и меньшим уровнем шумов. Однако они имеют и недостатки --- больший обратный ток утечки и меньшее максимально допустимое обратное напряжение.
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth]{pp8.jpg}
+\label{fig:barrier_formation}
+\end{figure}
 
 \section{Ход работы}
 \subsection{Измерение параметров омического контакта Al на Si}
@@ -508,16 +494,6 @@ R_{\text{контакт}} = \frac{R_{\text{ближ}} - R_{\text{удал}} - R_
     \caption{ВАХ при включенном свете}
     \label{fig:placeholder}
 \end{figure}
-
-\newpage
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.85\linewidth]{F2.png}
-    \caption{ВАХ при выключенном свете}
-    \label{fig:placeholder}
-\end{figure}
-
 % \begin{figure}[H]
 %     \centering
 %     \includegraphics[width=0.5\linewidth]{image11.png}
@@ -525,26 +501,21 @@ R_{\text{контакт}} = \frac{R_{\text{ближ}} - R_{\text{удал}} - R_
 %     \label{fig:placeholder}
 % \end{figure}
 
-Из аналогичного графика их второго пункта 2.05 мА/В, а у прямой ветви 0.97 мА/В
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth]{p9.jpg}
+\caption{Апрксимация прямой ветви ВАХ, формулой из пунукта 4.9}
+\label{fig:barrier_formation}
+\end{figure}
 
-Определим предельное значение тока $I_{0}$ обратной ветви диодной характеристики:\par
-Для вкюченного света: $I_{0} = 0.022$ мА \par
-Для выключенного света: $I_{0} = 0.0035$ мА \par
+Из апрокмимации нашли I0 и R 
 
-Определим высоту энергетического барьера контакта Шоттки и коэффициента идеальности диода:\par
-
-\begin{enumerate}
-    \item Коэффициент идеальности $\gamma=\frac{1}{kT}\,\frac{dU}{d\ln I} = 3.9 $
-    \item Высота барьера при влюченном свете: $\phi_b=\frac{kT}{q}\ln\!\left(\frac{A_0ST^{2}}{I_0}\right) = \frac{1.38*10^{-23} * 294}{1.6 * 10^{-19}} ln(\frac{120* 294^{2}*0,77}{0.022}) = 0.499 \text{эВ}$
-    \item Высота барьера при выключенном свете: $\phi_b=\frac{kT}{q}\ln\!\left(\frac{A_0ST^{2}}{I_0}\right) = \frac{1.38*10^{-23} * 294}{1.6 * 10^{-19}} ln(\frac{120* 294^{2}*0,77}{0.0035}) = 0.546 \text{эВ}$
-\end{enumerate}
-
-
-
-
-
-
-
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth]{pp10.jpg}
+% \caption{Апрксимация прямой ветви ВАХ, формулой из пунукта 4.9}
+\label{fig:barrier_formation}
+\end{figure}
 
 % По ВФХ определим: 
 % \begin{enumerate}
@@ -582,26 +553,12 @@ R_{\text{контакт}} = \frac{R_{\text{ближ}} - R_{\text{удал}} - R_
 % \end{figure}
 
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.85\linewidth]{ppp.jpg}
-    \caption{ВАХ в полулогарифмическом масштабе при включенном свете}
-    \label{fig:placeholder}
-
 % \begin{figure}[H]
 %     \centering
 %     \includegraphics[width=0.85\linewidth]{image31.png}
 %     \caption{Фит формулой для ВАХ диод + последовательный резистор}
 %     \label{fig:placeholder}
 % \end{figure}
-
- \end{figure}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.85\linewidth]{pp.jpg}
-        \caption{ВАХ в полулогарифмическом масштабе при выключенном свете}
-        \label{fig:placeholder}
-    \end{figure}
     
 % \begin{figure}[H]
 %     \centering
@@ -618,8 +575,22 @@ R_{\text{контакт}} = \frac{R_{\text{ближ}} - R_{\text{удал}} - R_
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.85\linewidth]{F6.png}
+    \includegraphics[width=0.7\linewidth]{F6.png}
     \caption{ВФХ при выключенном свете}
+    \label{fig:placeholder}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{pp12.jpg}
+    \caption{Эквивалентая схема измерения ВФХ}
+    \label{fig:placeholder}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{pp11.jpg}
+    \caption{Рабочая формула для рассчета емкости}
     \label{fig:placeholder}
 \end{figure}
 
@@ -632,51 +603,32 @@ R_{\text{контакт}} = \frac{R_{\text{ближ}} - R_{\text{удал}} - R_
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.85\linewidth]{F7.png}
-    \caption{$1/C^2(V)$ при выключенном свете}
+    \includegraphics[width=0.7\linewidth]{pp13.jpg}
+    \caption{$1/C^2(V)$}
     \label{fig:placeholder}
 \end{figure}
 
-Определим концентрацию легирующих примесей в кремнии по графику выше:
+Определим высоту энергетического барьера контакта Шоттки:
 
-\[N=\frac{2}{q\,\varepsilon_s\,\varepsilon_0\,A^2\left|\dfrac{d(1/C^2)}{dV}\right|}\ = \frac{2}{1.6*10^{-19} * 11.7 * 8.854*10^{-12} * (7.7*10^{-7})^{2} * 2.54*10^{18}} = 8.01*10^{22} \text{м}^{-3}\]
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\linewidth]{pp14.jpg}
+    % \caption{ВФХ при выключенном свете}
+    \label{fig:placeholder}
+\end{figure}
+
+Используя эти данные вычислим концентрацию лигирующих примесей:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\linewidth]{pp15.jpg}
+    % \caption{ВФХ при выключенном свете}
+    \label{fig:placeholder}
+\end{figure}
 
 \subsubsection*{Измерения для невплавленных контактов}
 Установим один зонд на невплавленный контакт алюминия, другой на контактную площадку тоже невплавленного алюминия, снимем ВАХ и ВФХ при выключенном свете.
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.5\linewidth]{image11.png}
-    \caption{Электрическая схема измерения ВАХ между двумя контактными площадками невплавленного алюминия}
-    \label{fig:placeholder}
-\end{figure}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-По ВАХ определим:
-\begin{enumerate}
-    \item коэффициент идеальности $\gamma=\frac{1}{kT}\,\frac{dU}{d\ln I} = 3,5$
-    \item ток насыщения $I_0 = 0.58*10{-5}$ А 
-    \item высоту барьера $\phi_b=\frac{kT}{q}\ln\!\left(\frac{A_0ST^{2}}{I_0}\right) = \frac{1.38*10^{-23} * 294}{1.6 * 10^{-19}} ln(\frac{120* 294^{2}*0,77}{0.0058}) = 0.534 \text{эВ}$
-\end{enumerate}
-
-По ВФХ определим: 
-\begin{enumerate}
-    \item концентрацию примеси как $
-N = \frac{2}{q\,\varepsilon_s\,\varepsilon_0\,A^2\left|\dfrac{d(1/C^2)}{dV}\right|}\ = \frac{2}{1.6*10^{-19} * 11.7 * 8.854*10^{-12} * (7.7*10^{-7})^{2} * 1.5*10^{18}} = 13.6*10^{22} \text{м}^{-3}$
 %     \item емкость диода Шоттки С при нуле напряжения и экивалентного p-n перехода $
 % \frac{1}{C^2}=\frac{2V_{bi}}{q\,\varepsilon_s\,\varepsilon_0\,A^2\,N}$
 % \[
@@ -687,7 +639,7 @@ N = \frac{2}{q\,\varepsilon_s\,\varepsilon_0\,A^2\left|\dfrac{d(1/C^2)}{dV}\righ
 % \[\xrightarrow{\,N_A=N_D=N\,}\sqrt2\,W_{\text{Ш}}
 % \Rightarrow C_{p\text{-}n}(0)=\frac{C_{\text{Ш}}(0)}{\sqrt2}.
 % \]
-\end{enumerate}
+
 
 % \begin{figure}[H]
 %     \centering
@@ -700,13 +652,6 @@ N = \frac{2}{q\,\varepsilon_s\,\varepsilon_0\,A^2\left|\dfrac{d(1/C^2)}{dV}\righ
     \centering
     \includegraphics[width=0.85\linewidth]{p71.jpg}
     \caption{ВАХ для выключенного света}
-    \label{fig:placeholder}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.85\linewidth]{p72.jpg}
-    \caption{ВАХ в полулогарифмическом масштабе при выключенном свете}
     \label{fig:placeholder}
 \end{figure}
 
@@ -723,13 +668,6 @@ N = \frac{2}{q\,\varepsilon_s\,\varepsilon_0\,A^2\left|\dfrac{d(1/C^2)}{dV}\righ
     \caption{ВФХ при выключенном свете}
     \label{fig:placeholder}
 \end{figure}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.85\linewidth]{p74.jpg}
-    \caption{$1/C^2(V)$}
-    \label{fig:placeholder}
-\end{figure}
-
 
 \subsection{Выводы и полученные результаты}
 
@@ -808,16 +746,47 @@ N = \frac{2}{q\,\varepsilon_s\,\varepsilon_0\,A^2\left|\dfrac{d(1/C^2)}{dV}\righ
 % \caption{Параметры барьера Шоттки, определённые из линейной аппроксимации зависимости $1/C^2(U)$}
 % \end{table}
 
-Концентрация примеси сходится по порядку с табличной, также были найдены сопротивление контакта и удельное сопротивление контакта, нормированное на площадь: 
-\[
-R_{\text{контакт}} = 379,18\,\text{Ом}
-\]
+\section*{Выводы}
 
+В ходе выполнения лабораторной работы были исследованы вольт-амперная (ВАХ) и вольт-фарадная (ВФХ) характеристики диода Шоттки на основе кремния (p-тип, площадь контакта $A = 10^4$~мкм$^2$).
 
-\[\rho_k = R_{\text{контакт}}\cdot S
-= 3,79\cdot 10^{-6}\,\text{Ом}\cdot\text{м}^2\]
+\begin{enumerate}
+    \item \textbf{Анализ ВАХ.} 
+    Экспериментальная зависимость тока от напряжения была аппроксимирована уравнением диода с учётом последовательного сопротивления:
+    \begin{equation}
+        I = I_0 \left[ \exp\left(\frac{q(U - I R_s)}{k T}\right) - 1 \right].
+    \end{equation}
+    Методом нелинейной регрессии (Levenberg-Marquardt) были определены параметры:
+    \begin{itemize}
+        \item Ток насыщения: $I_0 = 1,12 \pm 0.14 \times 10^{-6}$ А;
+        \item Последовательное сопротивление: $R_s = (1147 \pm 15)$~Ом.
+    \end{itemize}
+    Коэффициент детерминации $R^2 = 0.977$ свидетельствует о хорошем согласии модели с экспериментом.
 
-Табличные значения для кремния p-типа КДБ 10 Ом $\cdot$ см: концентрация примеси $N = (1-2) \cdot 10^{ 15} \text{ см}^{-3}$ (концентрация в нашем случае получилась выше табличной), ширина барьера Шоттки - 0,45 – 0,5 эВ (табличная совпадает с нашим результатом).
+    \item \textbf{Анализ ВФХ и график Мотта-Шоттки.}
+    На основе измеренного импеданса была рассчитана барьерная ёмкость перехода $C(U)$ с учётом найденного ранее $R_s$. Построена зависимость $1/C^2$ от напряжения $U$ (график Мотта-Шоттки) в области обратного смещения.
+    
+    Линейная аппроксимация участка $1.5\text{--}3.0$~В дала уравнение:
+    \begin{equation}
+        \frac{1}{C^2} = (-3.10 \times 10^{22}) + (8.21 \times 10^{22}) \cdot U, \quad R^2 = 0.94.
+    \end{equation}
+
+    \item \textbf{Определение физических параметров.}
+    Из параметров линейного фита были рассчитаны:
+    \begin{itemize}
+        \item Встроенный потенциал (контактная разность потенциалов):
+        \begin{equation}
+            V_{bi} \approx 0.38~\text{В}.
+        \end{equation}
+        \item Концентрация акцепторов в полупроводнике ($\varepsilon_{Si} = 11.7$):
+        \begin{equation}
+            N_A = \frac{2}{q \varepsilon \varepsilon_0 A^2 \cdot \text{Slope}} \approx 1.5 \times 10^{16}~\text{см}^{-3}.
+        \end{equation}
+    \end{itemize}
+\end{enumerate}
+
+\noindent \textbf{Заключение:} Полученные значения $V_{bi}$ и $N_A$ находятся в диапазоне, характерном для контактов металл--полупроводник на кремниевых подложках, что подтверждает корректность проведённых измерений и обработки данных.
+
 
 % Попробуем построить ВФХ при учтенном сопротивлении: параллельном и последовательно соединенным.По ним определим новые емкости и концентрации
 

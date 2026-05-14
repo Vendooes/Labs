@@ -1,47 +1,43 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy import stats
+from scipy.optimize import curve_fit
 
-# Данные из таблицы
-nu = np.array([1.28, 1.2235, 1.5673, 2.0148, 2.1216, 4.4834])  # MHz
-Lambda = np.array([1.41, 1.17, 0.91, 0.69, 0.64, 0.37])  # mm
+# Исходные данные
+nu = np.array([1.080, 1.936, 3.219])          # частота, MTu
+Lambda_vals = np.array([1.41, 0.77, 0.48])    # Λ, мм
+Lambda_err = np.array([0.19, 0.09, 0.07])      # погрешность Λ, мм
 
-# Вычисляем 1/nu
-inv_nu = 1 / nu
+# Вычисление 1/ν
+inv_nu = 1 / nu                               # 1/ν (1/MTu)
 
-# Линейная аппроксимация (метод наименьших квадратов)
-slope, intercept, r_value, p_value, std_err = stats.linregress(inv_nu, Lambda)
+# Линейная модель: Λ = a + b * (1/ν)
+def linear_model(x, a, b):
+    return a + b * x
 
-# Создаем массив для линии аппроксимации
-x_fit = np.linspace(min(inv_nu), max(inv_nu), 100)
-y_fit = slope * x_fit + intercept
+# Взвешенная аппроксимация (веса = 1/σ²)
+popt, pcov = curve_fit(linear_model, inv_nu, Lambda_vals,
+                       sigma=Lambda_err, absolute_sigma=True)
+a, b = popt
+a_err, b_err = np.sqrt(np.diag(pcov))
 
-# Вывод результатов
-print(f"Уравнение прямой: Λ = {slope:.4f} × (1/ν) + {intercept:.4f}")
-print(f"Угол наклона (slope): {slope:.4f} мм·МГц")
-print(f"Коэффициент корреляции R²: {r_value**2:.6f}")
-print(f"Стандартная ошибка: {std_err:.4f}")
+print("Результаты линейной аппроксимации Λ = a + b·(1/ν):")
+print(f"a (свободный член) = {a:.3f} ± {a_err:.3f} мм")
+print(f"b (коэффициент наклона) = {b:.3f} ± {b_err:.3f} мм·MTu")
 
 # Построение графика
-plt.figure(figsize=(10, 6))
-plt.scatter(inv_nu, Lambda, color='red', s=100, label='Экспериментальные данные', zorder=5)
-plt.plot(x_fit, y_fit, 'b-', linewidth=2, label=f'Аппроксимация: Λ = {slope:.3f}×(1/ν) + {intercept:.3f}')
+x_fit = np.linspace(0.3, 0.95, 100)
+y_fit = linear_model(x_fit, a, b)
 
-# Добавление подписей для точек
-for i, (x, y) in enumerate(zip(inv_nu, Lambda)):
-    plt.annotate(f'{nu[i]}', (x, y), xytext=(5, 5), textcoords='offset points', fontsize=8)
-
-plt.xlabel('1/ν (МГц⁻¹)', fontsize=12)
-plt.ylabel('Λ (мм)', fontsize=12)
-plt.title('Зависимость Λ от 1/ν', fontsize=14, fontweight='bold')
-plt.legend(fontsize=10)
-plt.grid(True, alpha=0.3)
+plt.figure(figsize=(8, 5))
+plt.errorbar(inv_nu, Lambda_vals, yerr=Lambda_err,
+             fmt='o', capsize=5, capthick=1, ecolor='red',
+             color='blue', markersize=8, label='Экспериментальные данные')
+plt.plot(x_fit, y_fit, 'g--', linewidth=2,
+         label=f'Аппроксимация: Λ = {a:.3f} + 1559·(1/ν)')
+plt.xlabel('1/ν (1/MTu)')
+plt.ylabel('Λ (мм)')
+plt.title('Зависимость Λ от 1/ν (с линейной аппроксимацией)')
+plt.grid(True, linestyle='--', alpha=0.6)
+plt.legend()
 plt.tight_layout()
 plt.show()
-
-# Дополнительная информация
-print("\nТаблица значений:")
-print(f"{'ν (МГц)':<10} {'1/ν (МГц⁻¹)':<15} {'Λ (мм)':<10}")
-print("-" * 35)
-for i in range(len(nu)):
-    print(f"{nu[i]:<10.4f} {inv_nu[i]:<15.4f} {Lambda[i]:<10.2f}")
