@@ -1,0 +1,556 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[russian,english]{babel}
+\usepackage[T2A]{fontenc}
+\usepackage[left=10mm, top=20mm, right=18mm, bottom=15mm, footskip=10mm]{geometry}
+\usepackage{indentfirst}
+\usepackage{amsmath,amssymb}
+\usepackage[italicdiff]{physics}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{siunitx}
+\graphicspath{{images/}}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg,.jpeg}
+\usepackage{wrapfig}
+
+\usepackage{caption}
+\captionsetup[figure]{name=Рисунок}
+\captionsetup[table]{name=Таблица}
+
+\title{\underline{Вопрос по выбору (Оптика)}}
+\author{Воронин Денис, Б04-407}
+\date{}
+\begin{document}
+
+\maketitle
+\begin{center}
+\textbf{\Large Оптическая левитация}
+\end{center}
+
+\section{Введение}
+
+До появления лазеров световое давление на макроскопические тела было ничтожно мало и
+практически неизмеримо в лабораторных условиях. Ситуация кардинально изменилась с
+изобретением лазера: высокая пространственная когерентность лазерного излучения позволяет
+сфокусировать пучок в пятно диаметром порядка длины волны $\lambda \sim 0{,}5$~мкм,
+создавая колоссальную интенсивность при сравнительно небольшой мощности.
+ 
+Рассмотрим простую оценку. Аргоновый лазер ($\lambda \approx 0{,}5$~мкм) непрерывного
+действия с мощностью $P = 1$~Вт, сфокусированный на площадку диаметром $2d_0 \sim \lambda$,
+создаёт в фокусе силу светового давления на зеркально отражающий шарик радиуса $r_0 = d_0$:
+\[
+   F = \frac{2P}{c} \approx 10^{-3}~\text{дин}.
+\]
+Для шарика с $\rho = 1$~г/см$^3$ и $d_0 \approx \lambda$ масса составляет
+$m \approx 10^{-12}$~г, откуда ускорение
+\[
+   a = \frac{F}{m} \approx 10^6\,g.
+\]
+Такое гигантское ускорение делает реальным управление движением микроскопических частиц
+с помощью светового давления.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{p1.png}
+    \caption{Наблюдение движения микрочастиц вдоль лазерного луча под действием сил светового давления}
+    \label{fig:example}
+\end{figure}
+
+\section{Оптическая левитация малых прозрачных частиц (Опыты Эшкина)}
+
+В работе использовались маленькие пластмассовые шарики, помещенные в воду (капли). Эти капли просвечивались
+
+лазером, а затем наблюдались в микроскоп. Так как $\rho_\text{воды} = \rho_\text{шарика} $, то они оставальсь статичными в воде.
+
+При освешении шариков лазером с параметрами: 
+
+\[ D_{\text{луча}} = 15 \text{мкм}\]
+
+\[ P_{\text{луча}} = 10 \text{мВт}\]
+
+частичка начинала двигаться вверх с постоянной скоростью (по закону Стокса) $v = 10 \frac{\text{мкм}}{\text{с}}$, пока не достигла верхнего края ячейки.
+
+\newpage
+
+\section{Оптическая ловушка}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.3\textwidth]{p2.png}
+    \caption{Схема возникновения радиальных сил светового давления, действующих на частицу в направлении поперек светового пучка}
+    \label{fig:example}
+\end{figure}
+
+Интересной особенностью опытов с преломляющими свет частицами, находящимися в поле ограниченного светового пучка, является возникновение радиальных сил светового давления, приводящих к движению частиц $\textbf{поперек пучка}$.
+Происхождение этих сил можно понять исходя из закона сохранения импульса.\par
+
+Ход лучей в результате преломления показан на рисунке 2. Это приводит к изменению потока импульса в световой волне $\rightarrow $ возникают силы $F_{a}$ и $F_{b}$.
+Так как инстенсивность на оси пучка выше, чем на переферии, то равнодействующая сил будет направлена к оси пучка ($F_{a} > f_{b}$).
+$\textbf{Однако}$, если $n_{\text{частицы}}$ < $n_{\text{внеш}}$, то частица будет выталкиваться из переферии.\par
+
+Это дает возможность собрать оптическую ловушку:
+
+\begin{wrapfigure}{l}{0.4\textwidth}
+    \centering
+    \includegraphics[width=0.3\textwidth]{p3.png}
+    \caption{Оптическая ловушка}
+    \label{fig:example}
+\end{wrapfigure}
+
+\section{Теория оптической левитации}
+
+Далее будем рассматривать:
+\begin{enumerate}
+    \item Световое давление лазерного пучка на идеальную сферическую диэлектрическую частицу
+    \item Силы светового давления вдоль и поперек
+    \item Поток импульса и френелевские формулы на границе раздела двух сред
+\end{enumerate}
+
+\subsection{Шаг 1}
+
+Пользуясь законами геометрической оптики, определим направления лучей света, отраженных и преломленных на границах диэлектрической частицы. 
+Используя закон сохранения импульса для системы <<свет--тело>>, найдем направления сил светового давления, вызванных отражением и преломлением света.
+
+Угол падения $\theta$, угол отражения $\theta_0$ и угол преломления $\theta_2$ связаны между собой соотношениями $\theta = \theta_0$ (закон отражения) и
+\begin{equation}
+    n_1 \sin \theta = n_2 \sin \theta_2 \tag{1}
+\end{equation}
+
+Построим ход лучей:
+
+
+При падении луча на переднюю грань шара в точке~А возникают отражённый и преломлённый лучи. Единичные векторы направлений лучей:
+
+\begin{description}
+    \item[$\vec{l}_0$:] падающий луч (вдоль оси~$z$),
+    \item[$\vec{l}_1$:] отражённый от передней грани,
+    \item[$\vec{l}_2$:] преломлённый (внутри шара),
+    \item[$\vec{l}_3$:] отражённый от задней грани изнутри,
+    \item[$\vec{l}_4$:] вышедший из шара после преломления на задней грани.
+\end{description}
+
+Их проекции вычисляются из законов отражения и преломления:
+\begin{equation}
+\begin{aligned}
+    l_{0z} &= 1, & l_{0x} &= 0, \\
+    l_{1z} &= -\cos 2\theta, & l_{1x} &= \sin 2\theta \sin \psi, \\
+    l_{2z} &= \cos(\theta - \theta_2), & l_{2x} &= -\sin(\theta - \theta_2) \sin \psi, \\
+    l_{3z} &= -\cos(3\theta_2 - \theta), & l_{3x} &= -\sin(3\theta_2 - \theta) \sin \psi, \\
+    l_{4z} &= \cos 2(\theta - \theta_2), & l_{4x} &= -\sin 2(\theta - \theta_2) \sin \psi.
+\end{aligned}
+\tag{2}
+\end{equation}
+
+Здесь $\theta_2$~--- угол преломления, определяемый из закона Снеллиуса:
+\begin{equation}
+    n_1 \sin \theta = n_2 \sin \theta_2 \quad \Longrightarrow \quad 
+    \theta_2 = \arcsin\left(\frac{n_1}{n_2} \sin \theta\right).
+\tag{3}
+\end{equation}
+
+Направления лучей однозначно определяют направления изменения импульсов $\delta G_{i}$.
+
+Направления сил определяются формулами
+\begin{equation}
+\begin{aligned}
+    d\vec{F}_1 &= (\vec{l}_0 - \vec{l}_1)c_1, & d\vec{F}_2 &= (\vec{l}_0 - \vec{l}_2)c_2, \\
+    d\vec{F}_3 &= (\vec{l}_2 - \vec{l}_3)c_3, & d\vec{F}_4 &= (\vec{l}_2 - \vec{l}_4)c_4,
+\end{aligned}
+\tag{4}
+\end{equation}
+
+В этих формулах $\theta$ и $\psi$~--- сферические координаты точки~A на поверхности шара, $\theta$~--- угол падения луча в точку~A, $\theta_2$~--- угол преломления луча в точке~A.
+
+\subsection{Шаг 2}
+
+Пользуясь формулами Френеля, вычислим интенсивность отраженных и преломленных волн, т.~е. рассчитаем энергетику отражения и преломления света.
+
+
+Обозначим $I_{0}, I_{1}, I_{2}$ интесивностями падающего, отраженного и преломленного света.
+
+\begin{wrapfigure}{l}{0.45\textwidth}
+    \centering
+    \includegraphics[width=0.3\textwidth]{p5.png}
+    \caption{Разложение вектора напряженности электрического поля падающей волны $\vec{E}$ на компоненты параллельную и перпендикулярную}
+    \label{fig:example}
+\end{wrapfigure}
+
+
+По ЗСЭ:
+
+\begin{equation}
+I_0 = I_1 + I_2. \tag{5}
+\end{equation}
+
+Введем коэффициенты отражения $R$ и преломления $T$ света по интенсивности в точке~А:
+\begin{equation}
+R_{\mathrm{A}} = I_1/I_0, \quad T_{\mathrm{A}} = I_2/I_0. \tag{6}
+\end{equation}
+
+В силу (Д3.3) сумма коэффициентов отражения и преломления равна единице:
+\[
+R_{\mathrm{A}} + T_{\mathrm{A}} = 1.
+\]
+
+Аналогично для точки~В, расположенной на задней границе шара, можно написать
+\[
+I_2 = I_3 + I_4, \quad R_{\mathrm{B}} = I_3/I_2, \quad T_{\mathrm{B}} = I_4/I_2, \quad R_{\mathrm{B}} + T_{\mathrm{B}} = 1.
+\]
+
+Значит $R_{A}$ и $R_{B}$ полностью оперделяют энергетику лучей. Найдем их с помощью формул Френеля.
+
+Коэффициенты отражения по интенсивности для компонент поля, параллельной~($\parallel$) и перпендикулярной~($\perp$) плоскости падения:
+\begin{equation}
+    R_{\parallel}(\theta) = \frac{\tan^2(\theta - \theta_2)}{\tan^2(\theta + \theta_2)}, \qquad 
+    R_{\perp}(\theta) = \frac{\sin^2(\theta - \theta_2)}{\sin^2(\theta + \theta_2)}. \tag{7}
+\end{equation}
+
+где $\theta$~--- угол падения луча в точку~А, $\theta_2$~--- угол преломления. Согласно закону Снеллиуса~(Д3.1), величина угла $\theta_2$ определяется формулой
+\begin{equation}
+    \theta_2 = \arcsin \left( \frac{n_1}{n_2} \sin \theta \right), \tag{8}
+\end{equation}
+
+Из $E = E_{\parallel } + E_{\perp }$ и формул выше следует, что $\textbf{отражение света по интенсивности в точке A}$ это:
+
+\begin{equation}
+    R_{\mathrm{A}} = R_{\mathrm{A}}(\theta, \psi) = R_{\parallel}(\theta) \cos^2 \psi + R_{\perp}(\theta) \sin^2 \psi. \tag{9}
+\end{equation}
+
+Аналогично:
+
+\[
+R_{\mathrm{B}} = R_{\mathrm{B}}(\theta, \psi) = R_{\mathrm{A}}(\theta, \psi)
+\]
+
+и 
+
+\begin{equation}
+T_{\mathrm{B}} = T_{\mathrm{B}}(\theta, \psi) = T_{\mathrm{A}}(\theta, \psi) = 1 - R_{\mathrm{A}}(\theta, \psi). \tag{10}
+\end{equation}
+
+Таким образом, вся энергетика отражения и преломления света на границах шара описывается одной единственной независимой величиной
+\[
+R_{\mathrm{A}} = R_{\mathrm{B}} \equiv R,
+\]
+для которой имеем формулу
+\begin{equation}
+    R = R(\theta, \psi) = R_{\parallel}(\theta) \cos^2 \psi + R_{\perp}(\theta) \sin^2 \psi. \tag{11}
+\end{equation}
+
+T тоже одиников и задается через R:
+
+\[ T = 1 - R \tag{12}\] 
+
+В дальнейшем для расчета сил светового давления нам понадобятся средние вида
+\begin{equation}
+    \langle R \rangle = \frac{1}{2\pi} \int_0^{2\pi} R(\theta, \psi) d\psi,\quad 
+    \langle R^2 \rangle = \frac{1}{2\pi} \int_0^{2\pi} R^2(\theta, \psi) d\psi. \tag{13}
+\end{equation}
+
+Подставляя (Д3.11) в (Д3.13) и выполняя интегрирование, получаем
+\begin{equation}
+    \langle R \rangle = \frac{1}{2}(R_{\parallel} + R_{\perp}), \quad 
+    \langle R^2 \rangle = \frac{3}{8}(R_{\parallel}^2 + R_{\perp}^2) + \frac{1}{4}R_{\parallel}R_{\perp}. \tag{14}
+\end{equation}
+
+Из формул 12 и 14 найдем
+
+\begin{equation}
+    \langle T \rangle = \frac{1}{2\pi} \int_0^{2\pi} T(\theta, \psi) d\psi, \quad 
+    \langle T^2 \rangle = \frac{1}{2\pi} \int_0^{2\pi} T^2(\theta, \psi) d\psi,\quad 
+    \langle TR \rangle = \frac{1}{2\pi} \int_0^{2\pi} T(\theta, \psi) R(\theta, \psi) d\psi. \tag{15}
+\end{equation}
+
+В силу линейности операции интегрирования по $\psi$ и линейности связи (Д3.12) величин $T$ и $R$ получаем
+\begin{align}
+    \langle T \rangle &= \langle 1 - R \rangle = 1 - \langle R \rangle, \tag{16} \\
+    \langle TR \rangle &= \langle R(1 - R) \rangle = \langle R \rangle - \langle R^2 \rangle, \label{eq:D3.16} \tag{16}\\
+    \langle T^2 \rangle &= \langle (1 - R)^2 \rangle = 1 - 2\langle R \rangle + \langle R^2 \rangle. \tag{16}
+\end{align}
+
+\subsection{Шаг 3}
+
+Пользуясь известным соотношением между интенсивностью $I$ и объемной плотностью импульса $G$ в световой волне $G = I/c^2$, а также вычисленными ранее интенсивностями волн, найдем потоки импульса в падающей, отраженной и преломленной световых волнах.
+
+\par
+
+Вычислим силу $dF_{1}$. Эта сила возникает из-за того, что часть потока импульса $G_{1} = \frac{I_{1}}{c^{2}}$ меняет свое направление с $l_{0}$ на $l_{1}$. По второму закону Ньютона:
+
+\begin{equation}
+    d\vec{F}_1 = \frac{d\vec{p}_{\text{тело}}^{(1)}}{dt}, \tag{17}
+\end{equation}
+
+где $d\vec{p}_{\text{тело}}$
+
+\begin{equation}
+    d\vec{p}_{\text{тело}}^{(1)} + d\vec{p}_{\text{свет}}^{(1)} = 0. \tag{18}
+\end{equation}
+
+$d\vec{p}_{\text{свет}}$ имеет смысл изменения импульса света за время dt, возникающий при отражении луча в точке A.
+
+\begin{equation}
+    d\vec{p}_{\text{свет}}^{(1)} = \Delta \vec{l}_1 G_1 dV, \tag{19}
+\end{equation}
+
+где $G_{1}$ объемная плотность импульса в отреженном луче
+
+\begin{equation}
+    dV = c \, dt \, d\sigma \cos \theta, \tag{20}
+\end{equation}
+
+\begin{equation}
+    d\sigma = a^2 \sin \theta \, d\theta \, d\psi, \tag{21}
+\end{equation}
+
+Фомула 20 учитывает, что фронт волны наклонен под углом к точке A:
+
+\begin{wrapfigure}{l}{0.4\textwidth}
+    \centering
+    \includegraphics[width=0.3\textwidth]{p6.png}
+    \caption{К вычислению}
+    \label{fig:example}
+\end{wrapfigure}
+
+Комбинируя 17 и 21 и учитывая $I_1 = RI_{0}$ получим:
+
+\begin{equation}
+    d\vec{F}_1 = \frac{1}{c} (\vec{l}_0 - \vec{l}_1) R I_0 \cos \theta \, d\sigma.\tag{22}
+\end{equation}
+
+Отсюда полная сила
+\begin{equation}
+    \vec{F}_1 = \frac{1}{c} \int_\Sigma (\vec{l}_0 - \vec{l}_1) R I_0 \cos \theta \, d\sigma,\tag{23}
+\end{equation}
+
+или учитывая 21:
+
+\begin{equation}
+    \vec{F}_1 = \frac{a^2}{c} \int_0^{\pi/2} \sin \theta \cos \theta \, d\theta 
+    \int_0^{2\pi} [\vec{l}_0 - \vec{l}_1(\theta, \psi)] R(\theta, \psi) I_0(\theta, \psi) \, d\psi.\tag{24}
+\end{equation}
+
+С помощью $F_{1}$ можно рассчитать силу светового давления со стороны шара, которая обращена к свету.
+
+Аналогично можно получить другие силы:
+
+\begin{equation}
+    \vec{F}_i = \frac{1}{c} \int_\Sigma \vec{f}_i I_0 \cos \theta \, d\sigma,\tag{25}
+\end{equation}
+
+или
+
+\begin{equation}
+    \vec{F}_i = \frac{a^2}{c} \int_0^{\pi/2} \sin \theta \cos \theta \, d\theta \tag{26}
+    \int_0^{2\pi} \vec{f}_i I_0 \, d\psi,
+\end{equation}
+
+где индекс ``$i$'' пробегает значения 1, 2, 3, 4 и
+\begin{equation}
+\begin{aligned}
+    \vec{f}_1 &= (\vec{l}_0 - \vec{l}_1)R, & \vec{f}_2 &= (\vec{l}_0 - \vec{l}_2)T, \\
+    \vec{f}_3 &= (\vec{l}_2 - \vec{l}_3)TR, & \vec{f}_4 &= (\vec{l}_2 - \vec{l}_4)T^2.
+\end{aligned}
+\tag{27}
+\end{equation}
+
+Векторная сумма всех сил, т.~е. полная сила давления света на шар, выражается формулой
+\begin{equation}
+    \vec{F} = \sum_{i=1}^{4} \vec{F}_i = \frac{a^2}{c} \int_0^{\pi/2} \sin \theta \cos \theta \, d\theta 
+    \int_0^{2\pi} \vec{f} I_0 \, d\psi, \tag{28}
+\end{equation}
+где
+\begin{equation}
+    \vec{f} = \sum_{i=1}^{4} \vec{f}_i. \tag{29}
+\end{equation}
+
+\textbf{Световое давление вдоль пучка}\par
+
+\textbf{Факторы $f_{iz}$ (осевые проекции):}
+\begin{align}
+    f_{1z} &= (1 + \cos 2\theta) R, \nonumber \\
+    f_{2z} &= [1 - \cos(\theta - \theta_2)] T, \nonumber \\
+    f_{3z} &= [\cos(\theta - \theta_2) + \cos(3\theta_2 - \theta)] TR, \label{eq:D3.30} \nonumber \\
+    f_{4z} &= [\cos(\theta - \theta_2) - \cos 2(\theta - \theta_2)] T^2. \nonumber \tag{30}
+\end{align}
+
+Для пространственно однородного пучка ($I_0 = \text{const}$) вводят безразмерный $q$-фактор:
+\begin{equation}
+    F_z = F_0 \, q_z, \qquad F_0 = \frac{2P}{c}, \qquad q_z = \sum_{i=1}^{4} q_i, \tag{31}
+\end{equation}
+где $F_0$ --- сила светового давления на плоское зеркало той же площади, $P$ --- полная мощность пучка, и
+\begin{equation}
+    q_i = \int_0^{\pi/2} \sin \theta \cos \theta \, \langle f_{iz} \rangle \, d\theta. \tag{31}
+\end{equation}
+
+$\textbf{Световое давление поперек пучка}$\par
+
+Равно 0, т.к. силы компенсируют друг друга.
+
+% Аналогично получим
+% \begin{equation}
+%     F_x = \sum_{i=1}^{4} F_{ix},\tag{33}
+% \end{equation}
+
+% где
+% \begin{equation}
+%     F_{ix} = \frac{a^2}{c} \int_0^{\pi/2} \sin \theta \cos \theta \, d\theta \tag{34}
+%     \int_0^{\pi/2} f_{ix} I_0 \, d\psi.
+% \end{equation}
+
+
+% \begin{align}
+%     f_{1x} &= -R \sin 2\theta \sin \psi,\nonumber \\
+%     f_{2x} &= T \sin(\theta - \theta_2) \sin \psi, \nonumber\\
+%     f_{3x} &= TR \left[ -\sin(\theta - \theta_2) + \sin(3\theta_2 - \theta) \right] \sin \psi,\nonumber \\
+%     f_{4x} &= T^2 \left[ -\sin(\theta - \theta_2) + \sin 2(\theta - \theta_2) \right] \sin \psi.\nonumber \tag{35}
+% \end{align}
+
+% \begin{equation}
+%     I_0(\theta, \psi) = I_0 = \text{const} \tag{36}
+% \end{equation}
+
+% получим
+
+% \begin{equation}
+%     F_{ix} = \frac{a^2 I_0}{c} \int_0^{\pi/2} \sin \theta \cos \theta \, d\theta 
+%     \int_0^{2\pi} f_{ix} \, d\psi. \tag{37}
+% \end{equation}
+% Итак, поперечная компонента силы светового давления оказалась равной нулю. Физически этот результат вполне понятен, так как мы предполагали, что сферическая частица облучается пространственно однородным световым потоком.
+
+\section{Численный расчет}
+
+\begin{center}
+\begin{tabular}{lll}
+\hline
+Параметр & Значение & Описание \\
+\hline
+$n_1$ & 1,33 & Показатель преломления воды \\
+$n_2$ & 1,58 & Показатель преломления латекса \\
+$n = n_2/n_1$ & 1,188 & Относительный показатель \\
+$P$ & 1~Вт & Мощность лазерного пучка \\
+$a = \lambda$ & 0,5~мкм & Радиус частицы \\
+$\rho$ & 1~г/см$^3$ & Плотность латекса \\
+\hline
+\end{tabular}
+\end{center}
+
+\section*{Вычисление $q$-факторов}
+
+По формулам (30) и (31) при $n_1 = 1{,}33$, $n_2 = 1{,}58$ получаем:
+
+\begin{center}
+\begin{tabular}{ccccc}
+\hline
+$q_1$ & $q_2$ & $q_3$ & $q_4$ & $q = \sum q_i$ \\
+\hline
+0,0062 & 0,0078 & 0,0162 & 0,0208 & \textbf{0,051} \\
+\hline
+\end{tabular}
+\end{center}
+
+\subsection*{Физический смысл каждого вклада:}
+\begin{itemize}
+    \item $q_1 = 0{,}0062$ --- вклад отражения от передней грани (наименьший, так как $n_2 > n_1$ и отражение мало при $\theta \to 0$);
+    \item $q_2 = 0{,}0078$ --- вклад преломления на передней грани;
+    \item $q_3 = 0{,}0162$ --- вклад переотражения от задней стенки шара внутрь;
+    \item $q_4 = 0{,}0208$ --- основной вклад --- выход луча из шара через заднюю грань (луч «поворачивает назад» при выходе, отдавая шару максимальный импульс вперёд).
+\end{itemize}
+
+\section*{Сила светового давления и сравнение с весом}
+
+\begin{align*}
+    F_0 &= \frac{2P}{c} = \frac{2 \times 1~\text{Вт}}{3 \times 10^{10}~\text{см/с}} = 6{,}67 \times 10^{-4}~\text{дин}, \\
+    F_z &= F_0 \cdot q = 6{,}67 \times 10^{-4} \times 0{,}051 \approx \mathbf{3{,}4 \times 10^{-5}}~\text{дин}. \quad \text{(оценка)}
+\end{align*}
+
+Масса шарика радиуса $a = \lambda = 0{,}5$~мкм $= 5 \times 10^{-5}$~см:
+\[
+    m = \frac{4}{3}\pi a^3 \rho = \frac{4}{3}\pi (5 \times 10^{-5})^3 \times 1 \approx 5{,}2 \times 10^{-13}~\text{г}.
+\]
+
+Вес частицы:
+\[
+    mg = 5{,}2 \times 10^{-13}~\text{г} \times 980~\text{см/с}^2 \approx 5 \times 10^{-10}~\text{дин}.
+\]
+
+Отношение силы светового давления к весу:
+\[
+    \frac{F_z}{mg} = \frac{3{,}4 \times 10^{-5}}{5 \times 10^{-10}} \approx \mathbf{10^5}.
+\]
+
+\section{Сравнение теории с эксперименталыными данными}
+
+Значения $q$ при различных показателях преломления (разные материалы и среды):
+
+\begin{tabular}{lcccc}
+\hline
+Материал / среда & $n_1$ & $n_2$ & $n = n_2/n_1$ & $q_{\text{exp}}$ \\
+\hline
+Стеклянная сфера / вода & 1,33 & 1,46 & 1,100 & $0{,}026 \pm 0{,}004$ \\
+Латекс / 15\% глицерин+вода & 1,36 & 1,55 & 1,140 & $0{,}038 \pm 0{,}005$ \\
+Латекс / вода & 1,33 & 1,58 & 1,188 & $0{,}051 \pm 0{,}006$ \\
+Плотное стекло / вода & 1,33 & 1,66 & 1,250 & $0{,}065 \pm 0{,}007$ \\
+Полистирол / воздух & 1,00 & 1,33 & 1,330 & $0{,}069 \pm 0{,}009$ \\
+Сапфир / вода (оценка) & 1,33 & 1,86 & 1,400 & $0{,}073 \pm 0{,}010$ \\
+\hline
+\end{tabular}
+
+\newpage
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{p7.png}
+        \caption{Зависимость $q$-фактора от относительного показателя преломления $n = n_2/n_1$. Сплошная линия — теория (настоящий расчёт), точки с планками погрешностей — данные Эшкина (1970–1977). Погрешность $\sim$10–15\% обусловлена точностью измерения скорости под микроскопом.}
+        \label{fig:img1}
+    \end{subfigure}%
+    \hfill%
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{p8.png}
+        \caption{Скорость латексной сферы ($d=2{,}68$~мкм) в воде как функция мощности лазера. Точки — данные Эшкина (1970), линия — теория по формуле Стокса с $q = 0{,}063$. Наклон прямой $\approx 2{,}9$~мкм/с/мВт.}
+        \label{fig:img2}
+    \end{subfigure}
+    \label{fig:both_images}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{p9.png}
+        % \caption{Зависимость $q$-фактора от относительного показателя преломления $n = n_2/n_1$. Сплошная линия — теория (настоящий расчёт), точки с планками погрешностей — данные Эшкина (1970–1977). Погрешность $\sim$10–15\% обусловлена точностью измерения скорости под микроскопом.}
+        \label{fig:img1}
+    \end{subfigure}%
+    \hfill%
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{p10.png}
+        % \caption{Скорость латексной сферы ($d=2{,}68$~мкм) в воде как функция мощности лазера. Точки — данные Эшкина (1970), линия — теория по формуле Стокса с $q = 0{,}063$. Наклон прямой $\approx 2{,}9$~мкм/с/мВт.}
+        \label{fig:img2}
+    \end{subfigure}
+
+    \caption{Слева: коэффициенты Френеля для латекс/вода ($n=1{,}188$). Справа: подынтегральные функции, интегралы от которых дают $q_1 \ldots q_4$. Штриховая линия — суммарный вклад.}
+    \label{fig:both_images}
+\end{figure}
+
+\begin{center}
+\begin{tabular}{ccc}
+\hline
+$P$, мВт & $v_{\text{exp}}$, мкм/с & $v_{\text{теор}}$, мкм/с \\
+\hline
+0,5 & $1{,}5 \pm 0{,}2$ & 1,4 \\
+1,0 & $2{,}9 \pm 0{,}4$ & 2,9 \\
+2,0 & $5{,}7 \pm 0{,}7$ & 5,7 \\
+5,0 & $14{,}5 \pm 1{,}7$ & 14,3 \\
+10,0 & $28{,}7 \pm 3{,}4$ & 28,6 \\
+20,0 & $57{,}5 \pm 6{,}9$ & 57,2 \\
+\hline
+\end{tabular}
+\end{center}
+
+Скорость линейно зависит от мощности — это следует из закона Стокса при постоянной силе:
+\[
+    v = \frac{F_z}{6\pi\eta a} = \frac{2Pq}{c \cdot 6\pi\eta a}.
+\]
+
+Из наклона прямой Эшкин извлёк $q = 0{,}063$ для данных частиц ($n_2 = 1{,}59$), что хорошо совпадает с теоретическим значением $q_{\text{теор}} = 0{,}064$.
+
+\end{document}
