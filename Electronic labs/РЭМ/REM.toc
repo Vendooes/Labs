@@ -1,0 +1,19 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Цель работы}{3}{section.1}%
+\contentsline {section}{\numberline {2}Теоретические сведения}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Введение}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Вторичная электронная эмиссия}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Генерация рентгеновского излучения}{4}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Линейчатый спектр, К-излучение и его эффективность}{5}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Электронная ионизация ударом}{6}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Количественный микроанализ и искажающие его факторы}{6}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Электронный зонд}{7}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Детектор рентгеновского излучения}{8}{subsection.2.8}%
+\contentsline {section}{\numberline {3}Экспериментальная установка }{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}формирование изображения в РЭМ}{9}{subsection.3.1}%
+\contentsline {section}{\numberline {4}Ход работы}{10}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Получение изображения образца медь - хром}{10}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Рассмотрение диэлектрических объектов}{11}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Разные картинки разных вещей}{12}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Численный эксперимент}{14}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Вывод}{17}{section.5}%
